@@ -1,0 +1,1525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0B1A331BE4AFE500128B54 /* ContactUs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B1A321BE4AFE500128B54 /* ContactUs.m */; };
+		4C15B6931BECC52F009F9C50 /* Feedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15B6921BECC52F009F9C50 /* Feedback.m */; };
+		4C15B6A51BECD3B7009F9C50 /* GalleryScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15B6A41BECD3B7009F9C50 /* GalleryScreen.m */; };
+		4C250C191BB699D800158378 /* AboutUs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C250C0A1BB699D800158378 /* AboutUs.m */; };
+		4C250C1A1BB699D800158378 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C250C0C1BB699D800158378 /* HomePage.m */; };
+		4C250C1B1BB699D800158378 /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C250C0E1BB699D800158378 /* LoginPage.m */; };
+		4C250C1C1BB699D800158378 /* RegistrationPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C250C101BB699D800158378 /* RegistrationPage.m */; };
+		4C250C1E1BB699D800158378 /* Off.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C250C141BB699D800158378 /* Off.png */; };
+		4C250C1F1BB699D800158378 /* On.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C250C151BB699D800158378 /* On.png */; };
+		4C2568FB1C0053CE00A98777 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2568FA1C0053CE00A98777 /* Menu.m */; };
+		4C2AD2551C3FCF930071B246 /* WeddingPredefined.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AD2541C3FCF930071B246 /* WeddingPredefined.m */; };
+		4C2AD2581C3FCFBE0071B246 /* GetTogetherPredefined.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AD2571C3FCFBE0071B246 /* GetTogetherPredefined.m */; };
+		4C2AD25B1C3FCFD60071B246 /* BirthdayPredefined.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AD25A1C3FCFD60071B246 /* BirthdayPredefined.m */; };
+		4C2AD25E1C3FCFEB0071B246 /* CorporatePredefined.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AD25D1C3FCFEB0071B246 /* CorporatePredefined.m */; };
+		4C2AD2611C3FCFFF0071B246 /* ReceptionPredefined.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AD2601C3FCFFF0071B246 /* ReceptionPredefined.m */; };
+		4C2AD2641C3FD0180071B246 /* GraduationPredefined.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AD2631C3FD0180071B246 /* GraduationPredefined.m */; };
+		4C31B9641BDA75290009FAE6 /* NSString+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C31B9601BDA75290009FAE6 /* NSString+NSString.m */; };
+		4C31B9681BDA7EEF0009FAE6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C31B9661BDA7EEF0009FAE6 /* libsqlite3.0.dylib */; };
+		4C3D76A51C4F9C550084FC89 /* cheesepizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D76A41C4F9C550084FC89 /* cheesepizza.png */; };
+		4C3D76A91C4F9EA80084FC89 /* chips.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D76A61C4F9EA80084FC89 /* chips.png */; };
+		4C3D76AA1C4F9EA80084FC89 /* cholebature.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D76A71C4F9EA80084FC89 /* cholebature.png */; };
+		4C3D76AB1C4F9EA80084FC89 /* icecream.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D76A81C4F9EA80084FC89 /* icecream.png */; };
+		4C3D76AD1C4F9F030084FC89 /* pavbhaji.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D76AC1C4F9F030084FC89 /* pavbhaji.png */; };
+		4C3D76AF1C4FA0890084FC89 /* cake.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D76AE1C4FA0890084FC89 /* cake.png */; };
+		4C3D76B21C4FA81B0084FC89 /* BirthdayPredefinedScreenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D76B11C4FA81B0084FC89 /* BirthdayPredefinedScreenCell.m */; };
+		4C690D411C4675E9009BDF79 /* Cheesecake.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CCE1C4675E9009BDF79 /* Cheesecake.png */; };
+		4C690D421C4675E9009BDF79 /* lemon pavlovas.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CCF1C4675E9009BDF79 /* lemon pavlovas.png */; };
+		4C690D431C4675E9009BDF79 /* about_us_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CD01C4675E9009BDF79 /* about_us_icon.png */; };
+		4C690D441C4675E9009BDF79 /* Feedback.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CD11C4675E9009BDF79 /* Feedback.png */; };
+		4C690D451C4675E9009BDF79 /* Location.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CD21C4675E9009BDF79 /* Location.png */; };
+		4C690D461C4675E9009BDF79 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CD31C4675E9009BDF79 /* Menu.png */; };
+		4C690D471C4675E9009BDF79 /* aloo gobi paratha.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CD41C4675E9009BDF79 /* aloo gobi paratha.png */; };
+		4C690D481C4675E9009BDF79 /* Aloo paratha.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CD51C4675E9009BDF79 /* Aloo paratha.png */; };
+		4C690D491C4675E9009BDF79 /* Aloo_Took.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CD61C4675E9009BDF79 /* Aloo_Took.png */; };
+		4C690D4A1C4675E9009BDF79 /* Aloo-ki-Sabzi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CD71C4675E9009BDF79 /* Aloo-ki-Sabzi.png */; };
+		4C690D4B1C4675E9009BDF79 /* aloo-tikki.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CD81C4675E9009BDF79 /* aloo-tikki.png */; };
+		4C690D4C1C4675E9009BDF79 /* Ananas-Menaskai.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CD91C4675E9009BDF79 /* Ananas-Menaskai.png */; };
+		4C690D4D1C4675E9009BDF79 /* arnie-palmer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CDA1C4675E9009BDF79 /* arnie-palmer.png */; };
+		4C690D4E1C4675E9009BDF79 /* Baked-Baby-Potatoes-with-Lime-Mayonnaise.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CDB1C4675E9009BDF79 /* Baked-Baby-Potatoes-with-Lime-Mayonnaise.png */; };
+		4C690D4F1C4675E9009BDF79 /* Bhindi-ki-Sabzi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CDC1C4675E9009BDF79 /* Bhindi-ki-Sabzi.png */; };
+		4C690D501C4675E9009BDF79 /* Birthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CDD1C4675E9009BDF79 /* Birthday.png */; };
+		4C690D511C4675E9009BDF79 /* Birthday2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CDE1C4675E9009BDF79 /* Birthday2.png */; };
+		4C690D521C4675E9009BDF79 /* blackberry cocoa sorbet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CDF1C4675E9009BDF79 /* blackberry cocoa sorbet.png */; };
+		4C690D531C4675E9009BDF79 /* blueberry-lemonade.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CE01C4675E9009BDF79 /* blueberry-lemonade.png */; };
+		4C690D541C4675E9009BDF79 /* bubbly-lemonade.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CE11C4675E9009BDF79 /* bubbly-lemonade.png */; };
+		4C690D551C4675E9009BDF79 /* Cabbage paratha.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CE21C4675E9009BDF79 /* Cabbage paratha.png */; };
+		4C690D561C4675E9009BDF79 /* carrot cheese paratha.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CE31C4675E9009BDF79 /* carrot cheese paratha.png */; };
+		4C690D571C4675E9009BDF79 /* carrotpeasparatha.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CE41C4675E9009BDF79 /* carrotpeasparatha.png */; };
+		4C690D581C4675E9009BDF79 /* champgne_gelee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CE51C4675E9009BDF79 /* champgne_gelee.png */; };
+		4C690D591C4675E9009BDF79 /* Chana-Dal-aur-Soya-Wadi-ki-Sabzi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CE61C4675E9009BDF79 /* Chana-Dal-aur-Soya-Wadi-ki-Sabzi.png */; };
+		4C690D5A1C4675E9009BDF79 /* cheese-balls.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CE71C4675E9009BDF79 /* cheese-balls.png */; };
+		4C690D5B1C4675E9009BDF79 /* cherry blossom.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CE81C4675E9009BDF79 /* cherry blossom.png */; };
+		4C690D5C1C4675E9009BDF79 /* chicken-satay.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CE91C4675E9009BDF79 /* chicken-satay.png */; };
+		4C690D5D1C4675E9009BDF79 /* Chilli-Paneer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CEA1C4675E9009BDF79 /* Chilli-Paneer.png */; };
+		4C690D5E1C4675E9009BDF79 /* chocolate pudding.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CEB1C4675E9009BDF79 /* chocolate pudding.png */; };
+		4C690D5F1C4675E9009BDF79 /* Chole-Chana-Dal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CEC1C4675E9009BDF79 /* Chole-Chana-Dal.png */; };
+		4C690D601C4675E9009BDF79 /* cold cherry soup.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CED1C4675E9009BDF79 /* cold cherry soup.png */; };
+		4C690D611C4675E9009BDF79 /* ContactUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CEE1C4675E9009BDF79 /* ContactUs.png */; };
+		4C690D621C4675E9009BDF79 /* Corporate.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CEF1C4675E9009BDF79 /* Corporate.png */; };
+		4C690D631C4675E9009BDF79 /* Corporate1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CF01C4675E9009BDF79 /* Corporate1.png */; };
+		4C690D641C4675E9009BDF79 /* cranberry-punch.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CF11C4675E9009BDF79 /* cranberry-punch.png */; };
+		4C690D651C4675E9009BDF79 /* cream cheese cake.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CF21C4675E9009BDF79 /* cream cheese cake.png */; };
+		4C690D661C4675E9009BDF79 /* Creamy-Mushroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CF31C4675E9009BDF79 /* Creamy-Mushroom.png */; };
+		4C690D671C4675E9009BDF79 /* Dahi-ki-Sabzi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CF41C4675E9009BDF79 /* Dahi-ki-Sabzi.png */; };
+		4C690D681C4675E9009BDF79 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CF51C4675E9009BDF79 /* download.png */; };
+		4C690D691C4675E9009BDF79 /* energy-drink.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CF61C4675E9009BDF79 /* energy-drink.png */; };
+		4C690D6A1C4675E9009BDF79 /* family-sangria.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CF71C4675E9009BDF79 /* family-sangria.png */; };
+		4C690D6B1C4675E9009BDF79 /* fancy-coffee-drink.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CF81C4675E9009BDF79 /* fancy-coffee-drink.png */; };
+		4C690D6C1C4675E9009BDF79 /* Feedback2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CF91C4675E9009BDF79 /* Feedback2.png */; };
+		4C690D6D1C4675E9009BDF79 /* French-Beans-with-Moong-Dal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CFA1C4675E9009BDF79 /* French-Beans-with-Moong-Dal.png */; };
+		4C690D6E1C4675E9009BDF79 /* frozen strawberry souffles.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CFB1C4675E9009BDF79 /* frozen strawberry souffles.png */; };
+		4C690D6F1C4675E9009BDF79 /* Gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CFC1C4675E9009BDF79 /* Gallery.png */; };
+		4C690D701C4675E9009BDF79 /* Garlic-Grilled-Tomatoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CFD1C4675E9009BDF79 /* Garlic-Grilled-Tomatoes.png */; };
+		4C690D711C4675E9009BDF79 /* Garlicky_Pepper_Mushroom_Stir_Fry.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CFE1C4675E9009BDF79 /* Garlicky_Pepper_Mushroom_Stir_Fry.png */; };
+		4C690D721C4675E9009BDF79 /* get-together.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690CFF1C4675E9009BDF79 /* get-together.png */; };
+		4C690D731C4675E9009BDF79 /* Get-together1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D001C4675E9009BDF79 /* Get-together1.png */; };
+		4C690D741C4675E9009BDF79 /* Graduation.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D011C4675E9009BDF79 /* Graduation.png */; };
+		4C690D751C4675E9009BDF79 /* Green-Peas-Mash.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D021C4675E9009BDF79 /* Green-Peas-Mash.png */; };
+		4C690D761C4675E9009BDF79 /* heavenly ice.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D031C4675E9009BDF79 /* heavenly ice.png */; };
+		4C690D771C4675E9009BDF79 /* icecream cone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D041C4675E9009BDF79 /* icecream cone.png */; };
+		4C690D781C4675E9009BDF79 /* icecream cookie sandwich.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D051C4675E9009BDF79 /* icecream cookie sandwich.png */; };
+		4C690D791C4675E9009BDF79 /* icecream cups.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D061C4675E9009BDF79 /* icecream cups.png */; };
+		4C690D7A1C4675E9009BDF79 /* icecream sandwich.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D071C4675E9009BDF79 /* icecream sandwich.png */; };
+		4C690D7B1C4675E9009BDF79 /* kakori-kebabs.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D081C4675E9009BDF79 /* kakori-kebabs.png */; };
+		4C690D7C1C4675E9009BDF79 /* Lauki-Kiwi-Masala.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D091C4675E9009BDF79 /* Lauki-Kiwi-Masala.png */; };
+		4C690D7D1C4675E9009BDF79 /* layered icecreamtreat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D0A1C4675E9009BDF79 /* layered icecreamtreat.png */; };
+		4C690D7E1C4675E9009BDF79 /* lemonbombe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D0B1C4675E9009BDF79 /* lemonbombe.png */; };
+		4C690D7F1C4675E9009BDF79 /* Lobia_Kebabs.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D0C1C4675E9009BDF79 /* Lobia_Kebabs.png */; };
+		4C690D801C4675E9009BDF79 /* Location2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D0D1C4675E9009BDF79 /* Location2.png */; };
+		4C690D811C4675E9009BDF79 /* luster dusted.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D0E1C4675E9009BDF79 /* luster dusted.png */; };
+		4C690D821C4675E9009BDF79 /* Makhmali_Rajma_Kofta.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D0F1C4675E9009BDF79 /* Makhmali_Rajma_Kofta.png */; };
+		4C690D831C4675E9009BDF79 /* masala chapathi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D101C4675E9009BDF79 /* masala chapathi.png */; };
+		4C690D841C4675E9009BDF79 /* masala palak paratha.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D111C4675E9009BDF79 /* masala palak paratha.png */; };
+		4C690D851C4675E9009BDF79 /* Menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D121C4675E9009BDF79 /* Menu2.png */; };
+		4C690D861C4675E9009BDF79 /* merry-mimosa.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D131C4675E9009BDF79 /* merry-mimosa.png */; };
+		4C690D871C4675E9009BDF79 /* methi thepla.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D141C4675E9009BDF79 /* methi thepla.png */; };
+		4C690D881C4675E9009BDF79 /* mini chocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D151C4675E9009BDF79 /* mini chocolate.png */; };
+		4C690D891C4675E9009BDF79 /* mini doughnuts.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D161C4675E9009BDF79 /* mini doughnuts.png */; };
+		4C690D8A1C4675E9009BDF79 /* miniature white cake.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D171C4675E9009BDF79 /* miniature white cake.png */; };
+		4C690D8B1C4675E9009BDF79 /* Mixed Veg paratha.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D181C4675E9009BDF79 /* Mixed Veg paratha.png */; };
+		4C690D8C1C4675E9009BDF79 /* Mixed_Vegetable_Noodle_Cutlet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D191C4675E9009BDF79 /* Mixed_Vegetable_Noodle_Cutlet.png */; };
+		4C690D8D1C4675E9009BDF79 /* Mooli paratha.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D1A1C4675E9009BDF79 /* Mooli paratha.png */; };
+		4C690D8E1C4675E9009BDF79 /* mud-sodas.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D1B1C4675E9009BDF79 /* mud-sodas.png */; };
+		4C690D8F1C4675E9009BDF79 /* Mushroom_on_Toast.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D1C1C4675E9009BDF79 /* Mushroom_on_Toast.png */; };
+		4C690D901C4675E9009BDF79 /* Mushroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D1D1C4675E9009BDF79 /* Mushroom.png */; };
+		4C690D911C4675E9009BDF79 /* notselectedcheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D1E1C4675E9009BDF79 /* notselectedcheckbox.png */; };
+		4C690D921C4675E9009BDF79 /* Paneer_Bread_Balls.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D1F1C4675E9009BDF79 /* Paneer_Bread_Balls.png */; };
+		4C690D931C4675E9009BDF79 /* paneer-tikka.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D201C4675E9009BDF79 /* paneer-tikka.png */; };
+		4C690D941C4675E9009BDF79 /* pavlovas.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D211C4675E9009BDF79 /* pavlovas.png */; };
+		4C690D951C4675E9009BDF79 /* peach-daiquiri.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D221C4675E9009BDF79 /* peach-daiquiri.png */; };
+		4C690D961C4675E9009BDF79 /* peaches and cream ice pops.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D231C4675E9009BDF79 /* peaches and cream ice pops.png */; };
+		4C690D971C4675E9009BDF79 /* Peanut_chaat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D241C4675E9009BDF79 /* Peanut_chaat.png */; };
+		4C690D981C4675E9009BDF79 /* Peas paratha.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D251C4675E9009BDF79 /* Peas paratha.png */; };
+		4C690D991C4675E9009BDF79 /* Rajgira_Aloo_Tikki.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D261C4675E9009BDF79 /* Rajgira_Aloo_Tikki.png */; };
+		4C690D9A1C4675E9009BDF79 /* Rajma paratha.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D271C4675E9009BDF79 /* Rajma paratha.png */; };
+		4C690D9B1C4675E9009BDF79 /* Rajma_Veg_Galouti_Kebab.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D281C4675E9009BDF79 /* Rajma_Veg_Galouti_Kebab.png */; };
+		4C690D9C1C4675E9009BDF79 /* raspberry-sparkler.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D291C4675E9009BDF79 /* raspberry-sparkler.png */; };
+		4C690D9D1C4675E9009BDF79 /* reception.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D2A1C4675E9009BDF79 /* reception.png */; };
+		4C690D9E1C4675E9009BDF79 /* roulades.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D2B1C4675E9009BDF79 /* roulades.png */; };
+		4C690D9F1C4675E9009BDF79 /* Samosas_with_Minced_Mushroom_Paneer_and_Soya_chunks.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D2C1C4675E9009BDF79 /* Samosas_with_Minced_Mushroom_Paneer_and_Soya_chunks.png */; };
+		4C690DA01C4675E9009BDF79 /* Savory_Tart.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D2D1C4675E9009BDF79 /* Savory_Tart.png */; };
+		4C690DA11C4675E9009BDF79 /* selectedcheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D2E1C4675E9009BDF79 /* selectedcheckbox.png */; };
+		4C690DA21C4675E9009BDF79 /* Shahi-Paneer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D2F1C4675E9009BDF79 /* Shahi-Paneer.png */; };
+		4C690DA31C4675E9009BDF79 /* shirley-temple.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D301C4675E9009BDF79 /* shirley-temple.png */; };
+		4C690DA41C4675E9009BDF79 /* smoothies.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D311C4675E9009BDF79 /* smoothies.png */; };
+		4C690DA51C4675E9009BDF79 /* sorbet bombe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D321C4675E9009BDF79 /* sorbet bombe.png */; };
+		4C690DA61C4675E9009BDF79 /* strawberry shaped icecream.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D331C4675E9009BDF79 /* strawberry shaped icecream.png */; };
+		4C690DA71C4675E9009BDF79 /* strawberry-citrus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D341C4675E9009BDF79 /* strawberry-citrus.png */; };
+		4C690DA81C4675E9009BDF79 /* summer-punch.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D351C4675E9009BDF79 /* summer-punch.png */; };
+		4C690DA91C4675E9009BDF79 /* Suran_Fodi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D361C4675E9009BDF79 /* Suran_Fodi.png */; };
+		4C690DAA1C4675E9009BDF79 /* sweet nut cups.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D371C4675E9009BDF79 /* sweet nut cups.png */; };
+		4C690DAB1C4675E9009BDF79 /* Sweet_Corn_Oats_Fritters.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D381C4675E9009BDF79 /* Sweet_Corn_Oats_Fritters.png */; };
+		4C690DAC1C4675E9009BDF79 /* swirled chocolate icecream.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D391C4675E9009BDF79 /* swirled chocolate icecream.png */; };
+		4C690DAD1C4675E9009BDF79 /* Tandoori_Gobi_Tikka.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D3A1C4675E9009BDF79 /* Tandoori_Gobi_Tikka.png */; };
+		4C690DAE1C4675E9009BDF79 /* Titori.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D3B1C4675E9009BDF79 /* Titori.png */; };
+		4C690DAF1C4675E9009BDF79 /* tropical bombe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D3C1C4675E9009BDF79 /* tropical bombe.png */; };
+		4C690DB01C4675E9009BDF79 /* vanilla-soy-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D3D1C4675E9009BDF79 /* vanilla-soy-coffee.png */; };
+		4C690DB11C4675E9009BDF79 /* Vatana-Batata-Cauliflower-Sukke.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D3E1C4675E9009BDF79 /* Vatana-Batata-Cauliflower-Sukke.png */; };
+		4C690DB21C4675E9009BDF79 /* watermelon-kiwifruit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D3F1C4675E9009BDF79 /* watermelon-kiwifruit.png */; };
+		4C690DB31C4675E9009BDF79 /* Wedding.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C690D401C4675E9009BDF79 /* Wedding.png */; };
+		4C690DB61C46773D009BDF79 /* CustomizedScreenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C690DB51C46773D009BDF79 /* CustomizedScreenCell.m */; };
+		4C6C55C81C7570C0003CE1AF /* BirthdayBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C55C41C7570C0003CE1AF /* BirthdayBackground.png */; };
+		4C6C55CA1C7570C0003CE1AF /* GettogetherBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C55C61C7570C0003CE1AF /* GettogetherBackground.png */; };
+		4C6C55CB1C7570C0003CE1AF /* GraduationBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C55C71C7570C0003CE1AF /* GraduationBackground.png */; };
+		4C915E021C9C375F00DD38B9 /* E-FiestaDb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4C915E011C9C375F00DD38B9 /* E-FiestaDb.sqlite */; };
+		4C915E051C9C378A00DD38B9 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C915E041C9C378A00DD38B9 /* DBManager.m */; };
+		4CA371FC1C6C3D080031BFD2 /* ReceptionBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA371FA1C6C3D080031BFD2 /* ReceptionBackground.png */; };
+		4CA371FD1C6C3D080031BFD2 /* WeddingBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA371FB1C6C3D080031BFD2 /* WeddingBackground.png */; };
+		4CBAD4851C524439003B0907 /* GraduationPredefinedScreenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAD4841C524439003B0907 /* GraduationPredefinedScreenCell.m */; };
+		4CBAD4881C524469003B0907 /* GetTogetherPredefinedScreenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAD4871C524469003B0907 /* GetTogetherPredefinedScreenCell.m */; };
+		4CBAD48B1C52448B003B0907 /* ReceptionPredefinedScreenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAD48A1C52448B003B0907 /* ReceptionPredefinedScreenCell.m */; };
+		4CBAD48E1C5244A5003B0907 /* CorporatePredefinedScreenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAD48D1C5244A5003B0907 /* CorporatePredefinedScreenCell.m */; };
+		4CBAD4911C5244C1003B0907 /* WeddingPredefinedScreenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAD4901C5244C1003B0907 /* WeddingPredefinedScreenCell.m */; };
+		4CBDD8681C87E8D600D6C1A2 /* CorporateBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD8671C87E8D600D6C1A2 /* CorporateBackground.png */; };
+		4CBDD86B1C8806E900D6C1A2 /* ClientFeedbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBDD86A1C8806E900D6C1A2 /* ClientFeedbacks.m */; };
+		4CC0C54C1C645D3400C56FC6 /* UserInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0C54B1C645D3400C56FC6 /* UserInformation.m */; };
+		4CC0C54F1C646AF500C56FC6 /* OrderReceiptScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0C54E1C646AF500C56FC6 /* OrderReceiptScreen.m */; };
+		4CC546C51C62F826002F1A8A /* rice.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC546C31C62F825002F1A8A /* rice.png */; };
+		4CC546C61C62F826002F1A8A /* Fried rice.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC546C41C62F825002F1A8A /* Fried rice.png */; };
+		4CC546CC1C630650002F1A8A /* Imarti.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC546C71C630650002F1A8A /* Imarti.png */; };
+		4CC546CD1C630650002F1A8A /* Passion Fruit Cheesecake.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC546C81C630650002F1A8A /* Passion Fruit Cheesecake.png */; };
+		4CC546CE1C630650002F1A8A /* Spaghetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC546C91C630650002F1A8A /* Spaghetti.png */; };
+		4CC546CF1C630650002F1A8A /* Strawberry Meringue Tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC546CA1C630650002F1A8A /* Strawberry Meringue Tower.png */; };
+		4CC546D01C630650002F1A8A /* Vegan potato curry.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC546CB1C630650002F1A8A /* Vegan potato curry.png */; };
+		4CCCCC2C1C5B259400617FD5 /* Angoor Basundi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCBFD1C5B259400617FD5 /* Angoor Basundi.png */; };
+		4CCCCC2D1C5B259400617FD5 /* Apple Cucumber Salad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCBFE1C5B259400617FD5 /* Apple Cucumber Salad.png */; };
+		4CCCCC2E1C5B259400617FD5 /* Apple Halwa.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCBFF1C5B259400617FD5 /* Apple Halwa.png */; };
+		4CCCCC2F1C5B259400617FD5 /* Badam Cassata.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC001C5B259400617FD5 /* Badam Cassata.png */; };
+		4CCCCC301C5B259400617FD5 /* Cadburry Roll.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC011C5B259400617FD5 /* Cadburry Roll.png */; };
+		4CCCCC311C5B259400617FD5 /* Chocolate mousse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC021C5B259400617FD5 /* Chocolate mousse.png */; };
+		4CCCCC321C5B259400617FD5 /* Cocktail Kachori.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC031C5B259400617FD5 /* Cocktail Kachori.png */; };
+		4CCCCC331C5B259400617FD5 /* Corn Capsicum Pulav.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC041C5B259400617FD5 /* Corn Capsicum Pulav.png */; };
+		4CCCCC341C5B259400617FD5 /* Dahi Puri.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC051C5B259400617FD5 /* Dahi Puri.png */; };
+		4CCCCC351C5B259400617FD5 /* Faluda.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC061C5B259400617FD5 /* Faluda.png */; };
+		4CCCCC361C5B259400617FD5 /* Garlic bread.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC071C5B259400617FD5 /* Garlic bread.png */; };
+		4CCCCC371C5B259400617FD5 /* Garlic Mushroom Fried Rice.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC081C5B259400617FD5 /* Garlic Mushroom Fried Rice.png */; };
+		4CCCCC381C5B259400617FD5 /* Gulab jamun.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC091C5B259400617FD5 /* Gulab jamun.png */; };
+		4CCCCC391C5B259400617FD5 /* Imported fruit salads.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC0A1C5B259400617FD5 /* Imported fruit salads.png */; };
+		4CCCCC3A1C5B259400617FD5 /* Italian Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC0B1C5B259400617FD5 /* Italian Pizza.png */; };
+		4CCCCC3B1C5B259400617FD5 /* Manchow Soup.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC0C1C5B259400617FD5 /* Manchow Soup.png */; };
+		4CCCCC3C1C5B259400617FD5 /* Mini Samosa.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC0D1C5B259400617FD5 /* Mini Samosa.png */; };
+		4CCCCC3D1C5B259400617FD5 /* Nachos.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC0E1C5B259400617FD5 /* Nachos.png */; };
+		4CCCCC3E1C5B259400617FD5 /* Navratna Kurma.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC0F1C5B259400617FD5 /* Navratna Kurma.png */; };
+		4CCCCC3F1C5B259400617FD5 /* Palak Paneer Pulav.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC101C5B259400617FD5 /* Palak Paneer Pulav.png */; };
+		4CCCCC401C5B259400617FD5 /* Paneer Kulcha.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC111C5B259400617FD5 /* Paneer Kulcha.png */; };
+		4CCCCC411C5B259400617FD5 /* Pot Kulfi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC121C5B259400617FD5 /* Pot Kulfi.png */; };
+		4CCCCC421C5B259400617FD5 /* ragda patties.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC131C5B259400617FD5 /* ragda patties.png */; };
+		4CCCCC431C5B259400617FD5 /* Rajma.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC141C5B259400617FD5 /* Rajma.png */; };
+		4CCCCC441C5B259400617FD5 /* Real Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC151C5B259400617FD5 /* Real Orange.png */; };
+		4CCCCC451C5B259400617FD5 /* Russian Salad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC161C5B259400617FD5 /* Russian Salad.png */; };
+		4CCCCC461C5B259400617FD5 /* Sandwich.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC171C5B259400617FD5 /* Sandwich.png */; };
+		4CCCCC471C5B259400617FD5 /* Semiya Biriyani.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC181C5B259400617FD5 /* Semiya Biriyani.png */; };
+		4CCCCC481C5B259400617FD5 /* Sprouted Channa Salad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC191C5B259400617FD5 /* Sprouted Channa Salad.png */; };
+		4CCCCC491C5B259400617FD5 /* Sweet Corn Soup.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC1A1C5B259400617FD5 /* Sweet Corn Soup.png */; };
+		4CCCCC4A1C5B259400617FD5 /* Tandoori Roti.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC1B1C5B259400617FD5 /* Tandoori Roti.png */; };
+		4CCCCC4B1C5B259400617FD5 /* Veg Jalfraize.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC1C1C5B259400617FD5 /* Veg Jalfraize.png */; };
+		4CCCCC4C1C5B259400617FD5 /* veg manchurian.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC1D1C5B259400617FD5 /* veg manchurian.png */; };
+		4CCCCC4D1C5B259400617FD5 /* Avocado Pomegranate Crostini.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC1E1C5B259400617FD5 /* Avocado Pomegranate Crostini.png */; };
+		4CCCCC4E1C5B259400617FD5 /* Dal Makhani.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC1F1C5B259400617FD5 /* Dal Makhani.png */; };
+		4CCCCC4F1C5B259400617FD5 /* Kashmiri Pulav.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC201C5B259400617FD5 /* Kashmiri Pulav.png */; };
+		4CCCCC501C5B259400617FD5 /* Malai Kofta.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC211C5B259400617FD5 /* Malai Kofta.png */; };
+		4CCCCC511C5B259400617FD5 /* Naan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC221C5B259400617FD5 /* Naan.png */; };
+		4CCCCC521C5B259400617FD5 /* Paneer Makhni.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC231C5B259400617FD5 /* Paneer Makhni.png */; };
+		4CCCCC531C5B259400617FD5 /* roti.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC241C5B259400617FD5 /* roti.png */; };
+		4CCCCC541C5B259400617FD5 /* salad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC251C5B259400617FD5 /* salad.png */; };
+		4CCCCC551C5B259400617FD5 /* Salsa-Stuffed Puff.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC261C5B259400617FD5 /* Salsa-Stuffed Puff.png */; };
+		4CCCCC561C5B259400617FD5 /* Stuffed Masala Naan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC271C5B259400617FD5 /* Stuffed Masala Naan.png */; };
+		4CCCCC571C5B259400617FD5 /* Tomatosoup.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC281C5B259400617FD5 /* Tomatosoup.png */; };
+		4CCCCC581C5B259400617FD5 /* Vegan Lasagna.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC291C5B259400617FD5 /* Vegan Lasagna.png */; };
+		4CCCCC591C5B259400617FD5 /* VegetableSoup.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC2A1C5B259400617FD5 /* VegetableSoup.png */; };
+		4CCCCC5A1C5B259400617FD5 /* Vegetarian Spaghetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCC2B1C5B259400617FD5 /* Vegetarian Spaghetti.png */; };
+		4CD8921B1C7FF9590082F49C /* WeddingPredefinedGold.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8921A1C7FF9590082F49C /* WeddingPredefinedGold.m */; };
+		4CD8921E1C7FF9BE0082F49C /* GetTogetherPredefinedGold.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8921D1C7FF9BE0082F49C /* GetTogetherPredefinedGold.m */; };
+		4CD892211C7FF9D40082F49C /* BirthdayPredefinedGold.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD892201C7FF9D40082F49C /* BirthdayPredefinedGold.m */; };
+		4CD892241C7FF9F10082F49C /* CorporatePredefinedGold.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD892231C7FF9F10082F49C /* CorporatePredefinedGold.m */; };
+		4CD892271C7FFA080082F49C /* ReceptionPredefinedGold.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD892261C7FFA080082F49C /* ReceptionPredefinedGold.m */; };
+		4CD8922A1C7FFA1D0082F49C /* GraduationPredefinedGold.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD892291C7FFA1D0082F49C /* GraduationPredefinedGold.m */; };
+		4CE1B46D1B7E14A800613803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE1B46C1B7E14A800613803 /* main.m */; };
+		4CE1B4701B7E14A800613803 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE1B46F1B7E14A800613803 /* AppDelegate.m */; };
+		4CE1B4761B7E14A800613803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1B4741B7E14A800613803 /* Main.storyboard */; };
+		4CE1B4781B7E14A800613803 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1B4771B7E14A800613803 /* Images.xcassets */; };
+		4CE1B47B1B7E14A800613803 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1B4791B7E14A800613803 /* LaunchScreen.xib */; };
+		4CE1B4871B7E14A900613803 /* E_FiestaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE1B4861B7E14A900613803 /* E_FiestaTests.m */; };
+		4CE8B72A1C35431500C759A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE8B7291C35431400C759A3 /* libsqlite3.tbd */; };
+		4CED39541C24312700CEC19F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CED394F1C24312700CEC19F /* DetailViewController.m */; };
+		4CED39551C24312700CEC19F /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CED39511C24312700CEC19F /* Cell.m */; };
+		4CED39561C24312700CEC19F /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CED39531C24312700CEC19F /* CustomCellBackground.m */; };
+		4CEE2B8B1CA0386900E38A16 /* Payment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE2B8A1CA0386900E38A16 /* Payment.m */; };
+		4CEF97691C3E8E7800EE750B /* CustomizedPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEF97681C3E8E7800EE750B /* CustomizedPackage.m */; };
+		4CF1BAFF1C368E3100DA3D0F /* Wedding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1BAFE1C368E3100DA3D0F /* Wedding.m */; };
+		4CF1BB021C368F4700DA3D0F /* GetTogether.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1BB011C368F4700DA3D0F /* GetTogether.m */; };
+		4CF1BB051C368F6300DA3D0F /* BirthdayParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1BB041C368F6300DA3D0F /* BirthdayParty.m */; };
+		4CF1BB081C368F7A00DA3D0F /* CorporateParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1BB071C368F7A00DA3D0F /* CorporateParty.m */; };
+		4CF1BB0B1C368FB800DA3D0F /* Reception.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1BB0A1C368FB800DA3D0F /* Reception.m */; };
+		4CF1BB0E1C36927000DA3D0F /* GraduationParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1BB0D1C36927000DA3D0F /* GraduationParty.m */; };
+		8B01B5FD1CBBEF20004E15D0 /* CancelOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B01B5FC1CBBEF20004E15D0 /* CancelOrderCell.m */; };
+		8B6611E41CA6C379001FB6AC /* ForgetPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611E31CA6C379001FB6AC /* ForgetPassword.m */; };
+		8BFD74011CAD5B5D00E28C16 /* CancelOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD74001CAD5B5D00E28C16 /* CancelOrder.m */; };
+		BDCA30AA1C75CC5500BEDCEA /* LocationScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA30A91C75CC5500BEDCEA /* LocationScreen.m */; };
+		BDCA30AC1C75CD8500BEDCEA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCA30AB1C75CD8500BEDCEA /* MapKit.framework */; };
+		BDCA30AE1C75CDBD00BEDCEA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCA30AD1C75CDBD00BEDCEA /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CE1B4811B7E14A800613803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CE1B45F1B7E14A800613803 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE1B4661B7E14A800613803;
+			remoteInfo = "E-Fiesta";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C0B1A311BE4AFE500128B54 /* ContactUs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUs.h; sourceTree = "<group>"; };
+		4C0B1A321BE4AFE500128B54 /* ContactUs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUs.m; sourceTree = "<group>"; };
+		4C15B6911BECC52F009F9C50 /* Feedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feedback.h; sourceTree = "<group>"; };
+		4C15B6921BECC52F009F9C50 /* Feedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feedback.m; sourceTree = "<group>"; };
+		4C15B6A31BECD3B7009F9C50 /* GalleryScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryScreen.h; sourceTree = "<group>"; };
+		4C15B6A41BECD3B7009F9C50 /* GalleryScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryScreen.m; sourceTree = "<group>"; };
+		4C250C091BB699D800158378 /* AboutUs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUs.h; sourceTree = "<group>"; };
+		4C250C0A1BB699D800158378 /* AboutUs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUs.m; sourceTree = "<group>"; };
+		4C250C0B1BB699D800158378 /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
+		4C250C0C1BB699D800158378 /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
+		4C250C0D1BB699D800158378 /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
+		4C250C0E1BB699D800158378 /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
+		4C250C0F1BB699D800158378 /* RegistrationPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationPage.h; sourceTree = "<group>"; };
+		4C250C101BB699D800158378 /* RegistrationPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationPage.m; sourceTree = "<group>"; tabWidth = 4; };
+		4C250C141BB699D800158378 /* Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Off.png; sourceTree = "<group>"; };
+		4C250C151BB699D800158378 /* On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = On.png; sourceTree = "<group>"; };
+		4C250C201BB69A0200158378 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		4C250C211BB69A4A00158378 /* E-Fiesta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "E-Fiesta-Prefix.pch"; sourceTree = "<group>"; };
+		4C2568F91C0053CE00A98777 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		4C2568FA1C0053CE00A98777 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		4C2AD2531C3FCF930071B246 /* WeddingPredefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeddingPredefined.h; sourceTree = "<group>"; };
+		4C2AD2541C3FCF930071B246 /* WeddingPredefined.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeddingPredefined.m; sourceTree = "<group>"; };
+		4C2AD2561C3FCFBE0071B246 /* GetTogetherPredefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTogetherPredefined.h; sourceTree = "<group>"; };
+		4C2AD2571C3FCFBE0071B246 /* GetTogetherPredefined.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTogetherPredefined.m; sourceTree = "<group>"; };
+		4C2AD2591C3FCFD60071B246 /* BirthdayPredefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthdayPredefined.h; sourceTree = "<group>"; };
+		4C2AD25A1C3FCFD60071B246 /* BirthdayPredefined.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayPredefined.m; sourceTree = "<group>"; };
+		4C2AD25C1C3FCFEB0071B246 /* CorporatePredefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorporatePredefined.h; sourceTree = "<group>"; };
+		4C2AD25D1C3FCFEB0071B246 /* CorporatePredefined.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorporatePredefined.m; sourceTree = "<group>"; };
+		4C2AD25F1C3FCFFF0071B246 /* ReceptionPredefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceptionPredefined.h; sourceTree = "<group>"; };
+		4C2AD2601C3FCFFF0071B246 /* ReceptionPredefined.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceptionPredefined.m; sourceTree = "<group>"; };
+		4C2AD2621C3FD0170071B246 /* GraduationPredefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraduationPredefined.h; sourceTree = "<group>"; };
+		4C2AD2631C3FD0180071B246 /* GraduationPredefined.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraduationPredefined.m; sourceTree = "<group>"; };
+		4C31B95F1BDA75290009FAE6 /* NSString+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSString.h"; sourceTree = "<group>"; };
+		4C31B9601BDA75290009FAE6 /* NSString+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSString.m"; sourceTree = "<group>"; };
+		4C31B9661BDA7EEF0009FAE6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		4C31B9671BDA7EEF0009FAE6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		4C3D76A41C4F9C550084FC89 /* cheesepizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheesepizza.png; sourceTree = "<group>"; };
+		4C3D76A61C4F9EA80084FC89 /* chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chips.png; sourceTree = "<group>"; };
+		4C3D76A71C4F9EA80084FC89 /* cholebature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cholebature.png; sourceTree = "<group>"; };
+		4C3D76A81C4F9EA80084FC89 /* icecream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icecream.png; sourceTree = "<group>"; };
+		4C3D76AC1C4F9F030084FC89 /* pavbhaji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pavbhaji.png; sourceTree = "<group>"; };
+		4C3D76AE1C4FA0890084FC89 /* cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cake.png; sourceTree = "<group>"; };
+		4C3D76B01C4FA81B0084FC89 /* BirthdayPredefinedScreenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthdayPredefinedScreenCell.h; sourceTree = "<group>"; };
+		4C3D76B11C4FA81B0084FC89 /* BirthdayPredefinedScreenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayPredefinedScreenCell.m; sourceTree = "<group>"; };
+		4C690CCE1C4675E9009BDF79 /* Cheesecake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cheesecake.png; sourceTree = "<group>"; };
+		4C690CCF1C4675E9009BDF79 /* lemon pavlovas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lemon pavlovas.png"; sourceTree = "<group>"; };
+		4C690CD01C4675E9009BDF79 /* about_us_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_us_icon.png; sourceTree = "<group>"; };
+		4C690CD11C4675E9009BDF79 /* Feedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feedback.png; sourceTree = "<group>"; };
+		4C690CD21C4675E9009BDF79 /* Location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location.png; sourceTree = "<group>"; };
+		4C690CD31C4675E9009BDF79 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.png; sourceTree = "<group>"; };
+		4C690CD41C4675E9009BDF79 /* aloo gobi paratha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aloo gobi paratha.png"; sourceTree = "<group>"; };
+		4C690CD51C4675E9009BDF79 /* Aloo paratha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aloo paratha.png"; sourceTree = "<group>"; };
+		4C690CD61C4675E9009BDF79 /* Aloo_Took.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aloo_Took.png; sourceTree = "<group>"; };
+		4C690CD71C4675E9009BDF79 /* Aloo-ki-Sabzi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aloo-ki-Sabzi.png"; sourceTree = "<group>"; };
+		4C690CD81C4675E9009BDF79 /* aloo-tikki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aloo-tikki.png"; sourceTree = "<group>"; };
+		4C690CD91C4675E9009BDF79 /* Ananas-Menaskai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ananas-Menaskai.png"; sourceTree = "<group>"; };
+		4C690CDA1C4675E9009BDF79 /* arnie-palmer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arnie-palmer.png"; sourceTree = "<group>"; };
+		4C690CDB1C4675E9009BDF79 /* Baked-Baby-Potatoes-with-Lime-Mayonnaise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Baked-Baby-Potatoes-with-Lime-Mayonnaise.png"; sourceTree = "<group>"; };
+		4C690CDC1C4675E9009BDF79 /* Bhindi-ki-Sabzi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bhindi-ki-Sabzi.png"; sourceTree = "<group>"; };
+		4C690CDD1C4675E9009BDF79 /* Birthday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Birthday.png; sourceTree = "<group>"; };
+		4C690CDE1C4675E9009BDF79 /* Birthday2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Birthday2.png; sourceTree = "<group>"; };
+		4C690CDF1C4675E9009BDF79 /* blackberry cocoa sorbet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackberry cocoa sorbet.png"; sourceTree = "<group>"; };
+		4C690CE01C4675E9009BDF79 /* blueberry-lemonade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueberry-lemonade.png"; sourceTree = "<group>"; };
+		4C690CE11C4675E9009BDF79 /* bubbly-lemonade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbly-lemonade.png"; sourceTree = "<group>"; };
+		4C690CE21C4675E9009BDF79 /* Cabbage paratha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cabbage paratha.png"; sourceTree = "<group>"; };
+		4C690CE31C4675E9009BDF79 /* carrot cheese paratha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carrot cheese paratha.png"; sourceTree = "<group>"; };
+		4C690CE41C4675E9009BDF79 /* carrotpeasparatha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carrotpeasparatha.png; sourceTree = "<group>"; };
+		4C690CE51C4675E9009BDF79 /* champgne_gelee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = champgne_gelee.png; sourceTree = "<group>"; };
+		4C690CE61C4675E9009BDF79 /* Chana-Dal-aur-Soya-Wadi-ki-Sabzi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chana-Dal-aur-Soya-Wadi-ki-Sabzi.png"; sourceTree = "<group>"; };
+		4C690CE71C4675E9009BDF79 /* cheese-balls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cheese-balls.png"; sourceTree = "<group>"; };
+		4C690CE81C4675E9009BDF79 /* cherry blossom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cherry blossom.png"; sourceTree = "<group>"; };
+		4C690CE91C4675E9009BDF79 /* chicken-satay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chicken-satay.png"; sourceTree = "<group>"; };
+		4C690CEA1C4675E9009BDF79 /* Chilli-Paneer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chilli-Paneer.png"; sourceTree = "<group>"; };
+		4C690CEB1C4675E9009BDF79 /* chocolate pudding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chocolate pudding.png"; sourceTree = "<group>"; };
+		4C690CEC1C4675E9009BDF79 /* Chole-Chana-Dal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chole-Chana-Dal.png"; sourceTree = "<group>"; };
+		4C690CED1C4675E9009BDF79 /* cold cherry soup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cold cherry soup.png"; sourceTree = "<group>"; };
+		4C690CEE1C4675E9009BDF79 /* ContactUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ContactUs.png; sourceTree = "<group>"; };
+		4C690CEF1C4675E9009BDF79 /* Corporate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Corporate.png; sourceTree = "<group>"; };
+		4C690CF01C4675E9009BDF79 /* Corporate1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Corporate1.png; sourceTree = "<group>"; };
+		4C690CF11C4675E9009BDF79 /* cranberry-punch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cranberry-punch.png"; sourceTree = "<group>"; };
+		4C690CF21C4675E9009BDF79 /* cream cheese cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cream cheese cake.png"; sourceTree = "<group>"; };
+		4C690CF31C4675E9009BDF79 /* Creamy-Mushroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Creamy-Mushroom.png"; sourceTree = "<group>"; };
+		4C690CF41C4675E9009BDF79 /* Dahi-ki-Sabzi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dahi-ki-Sabzi.png"; sourceTree = "<group>"; };
+		4C690CF51C4675E9009BDF79 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		4C690CF61C4675E9009BDF79 /* energy-drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "energy-drink.png"; sourceTree = "<group>"; };
+		4C690CF71C4675E9009BDF79 /* family-sangria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "family-sangria.png"; sourceTree = "<group>"; };
+		4C690CF81C4675E9009BDF79 /* fancy-coffee-drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fancy-coffee-drink.png"; sourceTree = "<group>"; };
+		4C690CF91C4675E9009BDF79 /* Feedback2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feedback2.png; sourceTree = "<group>"; };
+		4C690CFA1C4675E9009BDF79 /* French-Beans-with-Moong-Dal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "French-Beans-with-Moong-Dal.png"; sourceTree = "<group>"; };
+		4C690CFB1C4675E9009BDF79 /* frozen strawberry souffles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frozen strawberry souffles.png"; sourceTree = "<group>"; };
+		4C690CFC1C4675E9009BDF79 /* Gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gallery.png; sourceTree = "<group>"; };
+		4C690CFD1C4675E9009BDF79 /* Garlic-Grilled-Tomatoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Garlic-Grilled-Tomatoes.png"; sourceTree = "<group>"; };
+		4C690CFE1C4675E9009BDF79 /* Garlicky_Pepper_Mushroom_Stir_Fry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Garlicky_Pepper_Mushroom_Stir_Fry.png; sourceTree = "<group>"; };
+		4C690CFF1C4675E9009BDF79 /* get-together.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "get-together.png"; sourceTree = "<group>"; };
+		4C690D001C4675E9009BDF79 /* Get-together1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Get-together1.png"; sourceTree = "<group>"; };
+		4C690D011C4675E9009BDF79 /* Graduation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Graduation.png; sourceTree = "<group>"; };
+		4C690D021C4675E9009BDF79 /* Green-Peas-Mash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green-Peas-Mash.png"; sourceTree = "<group>"; };
+		4C690D031C4675E9009BDF79 /* heavenly ice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heavenly ice.png"; sourceTree = "<group>"; };
+		4C690D041C4675E9009BDF79 /* icecream cone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icecream cone.png"; sourceTree = "<group>"; };
+		4C690D051C4675E9009BDF79 /* icecream cookie sandwich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icecream cookie sandwich.png"; sourceTree = "<group>"; };
+		4C690D061C4675E9009BDF79 /* icecream cups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icecream cups.png"; sourceTree = "<group>"; };
+		4C690D071C4675E9009BDF79 /* icecream sandwich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icecream sandwich.png"; sourceTree = "<group>"; };
+		4C690D081C4675E9009BDF79 /* kakori-kebabs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kakori-kebabs.png"; sourceTree = "<group>"; };
+		4C690D091C4675E9009BDF79 /* Lauki-Kiwi-Masala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lauki-Kiwi-Masala.png"; sourceTree = "<group>"; };
+		4C690D0A1C4675E9009BDF79 /* layered icecreamtreat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layered icecreamtreat.png"; sourceTree = "<group>"; };
+		4C690D0B1C4675E9009BDF79 /* lemonbombe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemonbombe.png; sourceTree = "<group>"; };
+		4C690D0C1C4675E9009BDF79 /* Lobia_Kebabs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lobia_Kebabs.png; sourceTree = "<group>"; };
+		4C690D0D1C4675E9009BDF79 /* Location2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location2.png; sourceTree = "<group>"; };
+		4C690D0E1C4675E9009BDF79 /* luster dusted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luster dusted.png"; sourceTree = "<group>"; };
+		4C690D0F1C4675E9009BDF79 /* Makhmali_Rajma_Kofta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Makhmali_Rajma_Kofta.png; sourceTree = "<group>"; };
+		4C690D101C4675E9009BDF79 /* masala chapathi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "masala chapathi.png"; sourceTree = "<group>"; };
+		4C690D111C4675E9009BDF79 /* masala palak paratha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "masala palak paratha.png"; sourceTree = "<group>"; };
+		4C690D121C4675E9009BDF79 /* Menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu2.png; sourceTree = "<group>"; };
+		4C690D131C4675E9009BDF79 /* merry-mimosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "merry-mimosa.png"; sourceTree = "<group>"; };
+		4C690D141C4675E9009BDF79 /* methi thepla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "methi thepla.png"; sourceTree = "<group>"; };
+		4C690D151C4675E9009BDF79 /* mini chocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini chocolate.png"; sourceTree = "<group>"; };
+		4C690D161C4675E9009BDF79 /* mini doughnuts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini doughnuts.png"; sourceTree = "<group>"; };
+		4C690D171C4675E9009BDF79 /* miniature white cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "miniature white cake.png"; sourceTree = "<group>"; };
+		4C690D181C4675E9009BDF79 /* Mixed Veg paratha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mixed Veg paratha.png"; sourceTree = "<group>"; };
+		4C690D191C4675E9009BDF79 /* Mixed_Vegetable_Noodle_Cutlet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mixed_Vegetable_Noodle_Cutlet.png; sourceTree = "<group>"; };
+		4C690D1A1C4675E9009BDF79 /* Mooli paratha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mooli paratha.png"; sourceTree = "<group>"; };
+		4C690D1B1C4675E9009BDF79 /* mud-sodas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mud-sodas.png"; sourceTree = "<group>"; };
+		4C690D1C1C4675E9009BDF79 /* Mushroom_on_Toast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mushroom_on_Toast.png; sourceTree = "<group>"; };
+		4C690D1D1C4675E9009BDF79 /* Mushroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mushroom.png; sourceTree = "<group>"; };
+		4C690D1E1C4675E9009BDF79 /* notselectedcheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notselectedcheckbox.png; sourceTree = "<group>"; };
+		4C690D1F1C4675E9009BDF79 /* Paneer_Bread_Balls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Paneer_Bread_Balls.png; sourceTree = "<group>"; };
+		4C690D201C4675E9009BDF79 /* paneer-tikka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paneer-tikka.png"; sourceTree = "<group>"; };
+		4C690D211C4675E9009BDF79 /* pavlovas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pavlovas.png; sourceTree = "<group>"; };
+		4C690D221C4675E9009BDF79 /* peach-daiquiri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "peach-daiquiri.png"; sourceTree = "<group>"; };
+		4C690D231C4675E9009BDF79 /* peaches and cream ice pops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "peaches and cream ice pops.png"; sourceTree = "<group>"; };
+		4C690D241C4675E9009BDF79 /* Peanut_chaat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Peanut_chaat.png; sourceTree = "<group>"; };
+		4C690D251C4675E9009BDF79 /* Peas paratha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Peas paratha.png"; sourceTree = "<group>"; };
+		4C690D261C4675E9009BDF79 /* Rajgira_Aloo_Tikki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rajgira_Aloo_Tikki.png; sourceTree = "<group>"; };
+		4C690D271C4675E9009BDF79 /* Rajma paratha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rajma paratha.png"; sourceTree = "<group>"; };
+		4C690D281C4675E9009BDF79 /* Rajma_Veg_Galouti_Kebab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rajma_Veg_Galouti_Kebab.png; sourceTree = "<group>"; };
+		4C690D291C4675E9009BDF79 /* raspberry-sparkler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raspberry-sparkler.png"; sourceTree = "<group>"; };
+		4C690D2A1C4675E9009BDF79 /* reception.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reception.png; sourceTree = "<group>"; };
+		4C690D2B1C4675E9009BDF79 /* roulades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roulades.png; sourceTree = "<group>"; };
+		4C690D2C1C4675E9009BDF79 /* Samosas_with_Minced_Mushroom_Paneer_and_Soya_chunks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Samosas_with_Minced_Mushroom_Paneer_and_Soya_chunks.png; sourceTree = "<group>"; };
+		4C690D2D1C4675E9009BDF79 /* Savory_Tart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Savory_Tart.png; sourceTree = "<group>"; };
+		4C690D2E1C4675E9009BDF79 /* selectedcheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedcheckbox.png; sourceTree = "<group>"; };
+		4C690D2F1C4675E9009BDF79 /* Shahi-Paneer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shahi-Paneer.png"; sourceTree = "<group>"; };
+		4C690D301C4675E9009BDF79 /* shirley-temple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shirley-temple.png"; sourceTree = "<group>"; };
+		4C690D311C4675E9009BDF79 /* smoothies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoothies.png; sourceTree = "<group>"; };
+		4C690D321C4675E9009BDF79 /* sorbet bombe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sorbet bombe.png"; sourceTree = "<group>"; };
+		4C690D331C4675E9009BDF79 /* strawberry shaped icecream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strawberry shaped icecream.png"; sourceTree = "<group>"; };
+		4C690D341C4675E9009BDF79 /* strawberry-citrus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strawberry-citrus.png"; sourceTree = "<group>"; };
+		4C690D351C4675E9009BDF79 /* summer-punch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "summer-punch.png"; sourceTree = "<group>"; };
+		4C690D361C4675E9009BDF79 /* Suran_Fodi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suran_Fodi.png; sourceTree = "<group>"; };
+		4C690D371C4675E9009BDF79 /* sweet nut cups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweet nut cups.png"; sourceTree = "<group>"; };
+		4C690D381C4675E9009BDF79 /* Sweet_Corn_Oats_Fritters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sweet_Corn_Oats_Fritters.png; sourceTree = "<group>"; };
+		4C690D391C4675E9009BDF79 /* swirled chocolate icecream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swirled chocolate icecream.png"; sourceTree = "<group>"; };
+		4C690D3A1C4675E9009BDF79 /* Tandoori_Gobi_Tikka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tandoori_Gobi_Tikka.png; sourceTree = "<group>"; };
+		4C690D3B1C4675E9009BDF79 /* Titori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Titori.png; sourceTree = "<group>"; };
+		4C690D3C1C4675E9009BDF79 /* tropical bombe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tropical bombe.png"; sourceTree = "<group>"; };
+		4C690D3D1C4675E9009BDF79 /* vanilla-soy-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vanilla-soy-coffee.png"; sourceTree = "<group>"; };
+		4C690D3E1C4675E9009BDF79 /* Vatana-Batata-Cauliflower-Sukke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vatana-Batata-Cauliflower-Sukke.png"; sourceTree = "<group>"; };
+		4C690D3F1C4675E9009BDF79 /* watermelon-kiwifruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "watermelon-kiwifruit.png"; sourceTree = "<group>"; };
+		4C690D401C4675E9009BDF79 /* Wedding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wedding.png; sourceTree = "<group>"; };
+		4C690DB41C46773D009BDF79 /* CustomizedScreenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedScreenCell.h; sourceTree = "<group>"; };
+		4C690DB51C46773D009BDF79 /* CustomizedScreenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedScreenCell.m; sourceTree = "<group>"; };
+		4C6C55C41C7570C0003CE1AF /* BirthdayBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirthdayBackground.png; sourceTree = "<group>"; };
+		4C6C55C61C7570C0003CE1AF /* GettogetherBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GettogetherBackground.png; sourceTree = "<group>"; };
+		4C6C55C71C7570C0003CE1AF /* GraduationBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GraduationBackground.png; sourceTree = "<group>"; };
+		4C915E011C9C375F00DD38B9 /* E-FiestaDb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = "E-FiestaDb.sqlite"; path = "E-Fiesta/E-FiestaDb.sqlite"; sourceTree = "<group>"; };
+		4C915E031C9C378A00DD38B9 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		4C915E041C9C378A00DD38B9 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		4CA371FA1C6C3D080031BFD2 /* ReceptionBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReceptionBackground.png; sourceTree = "<group>"; };
+		4CA371FB1C6C3D080031BFD2 /* WeddingBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WeddingBackground.png; sourceTree = "<group>"; };
+		4CBAD4831C524439003B0907 /* GraduationPredefinedScreenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraduationPredefinedScreenCell.h; sourceTree = "<group>"; };
+		4CBAD4841C524439003B0907 /* GraduationPredefinedScreenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraduationPredefinedScreenCell.m; sourceTree = "<group>"; };
+		4CBAD4861C524469003B0907 /* GetTogetherPredefinedScreenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTogetherPredefinedScreenCell.h; sourceTree = "<group>"; };
+		4CBAD4871C524469003B0907 /* GetTogetherPredefinedScreenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTogetherPredefinedScreenCell.m; sourceTree = "<group>"; };
+		4CBAD4891C52448B003B0907 /* ReceptionPredefinedScreenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceptionPredefinedScreenCell.h; sourceTree = "<group>"; };
+		4CBAD48A1C52448B003B0907 /* ReceptionPredefinedScreenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceptionPredefinedScreenCell.m; sourceTree = "<group>"; };
+		4CBAD48C1C5244A5003B0907 /* CorporatePredefinedScreenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorporatePredefinedScreenCell.h; sourceTree = "<group>"; };
+		4CBAD48D1C5244A5003B0907 /* CorporatePredefinedScreenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorporatePredefinedScreenCell.m; sourceTree = "<group>"; };
+		4CBAD48F1C5244C1003B0907 /* WeddingPredefinedScreenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeddingPredefinedScreenCell.h; sourceTree = "<group>"; };
+		4CBAD4901C5244C1003B0907 /* WeddingPredefinedScreenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeddingPredefinedScreenCell.m; sourceTree = "<group>"; };
+		4CBDD8671C87E8D600D6C1A2 /* CorporateBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CorporateBackground.png; sourceTree = "<group>"; };
+		4CBDD8691C8806E900D6C1A2 /* ClientFeedbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientFeedbacks.h; sourceTree = "<group>"; };
+		4CBDD86A1C8806E900D6C1A2 /* ClientFeedbacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientFeedbacks.m; sourceTree = "<group>"; };
+		4CC0C54A1C645D3400C56FC6 /* UserInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInformation.h; sourceTree = "<group>"; };
+		4CC0C54B1C645D3400C56FC6 /* UserInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInformation.m; sourceTree = "<group>"; };
+		4CC0C54D1C646AF500C56FC6 /* OrderReceiptScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderReceiptScreen.h; sourceTree = "<group>"; };
+		4CC0C54E1C646AF500C56FC6 /* OrderReceiptScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderReceiptScreen.m; sourceTree = "<group>"; };
+		4CC546C31C62F825002F1A8A /* rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rice.png; sourceTree = "<group>"; };
+		4CC546C41C62F825002F1A8A /* Fried rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fried rice.png"; sourceTree = "<group>"; };
+		4CC546C71C630650002F1A8A /* Imarti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Imarti.png; sourceTree = "<group>"; };
+		4CC546C81C630650002F1A8A /* Passion Fruit Cheesecake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Passion Fruit Cheesecake.png"; sourceTree = "<group>"; };
+		4CC546C91C630650002F1A8A /* Spaghetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaghetti.png; sourceTree = "<group>"; };
+		4CC546CA1C630650002F1A8A /* Strawberry Meringue Tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Strawberry Meringue Tower.png"; sourceTree = "<group>"; };
+		4CC546CB1C630650002F1A8A /* Vegan potato curry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vegan potato curry.png"; sourceTree = "<group>"; };
+		4CCCCBFD1C5B259400617FD5 /* Angoor Basundi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angoor Basundi.png"; sourceTree = "<group>"; };
+		4CCCCBFE1C5B259400617FD5 /* Apple Cucumber Salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple Cucumber Salad.png"; sourceTree = "<group>"; };
+		4CCCCBFF1C5B259400617FD5 /* Apple Halwa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple Halwa.png"; sourceTree = "<group>"; };
+		4CCCCC001C5B259400617FD5 /* Badam Cassata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Badam Cassata.png"; sourceTree = "<group>"; };
+		4CCCCC011C5B259400617FD5 /* Cadburry Roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cadburry Roll.png"; sourceTree = "<group>"; };
+		4CCCCC021C5B259400617FD5 /* Chocolate mousse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chocolate mousse.png"; sourceTree = "<group>"; };
+		4CCCCC031C5B259400617FD5 /* Cocktail Kachori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cocktail Kachori.png"; sourceTree = "<group>"; };
+		4CCCCC041C5B259400617FD5 /* Corn Capsicum Pulav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Corn Capsicum Pulav.png"; sourceTree = "<group>"; };
+		4CCCCC051C5B259400617FD5 /* Dahi Puri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dahi Puri.png"; sourceTree = "<group>"; };
+		4CCCCC061C5B259400617FD5 /* Faluda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Faluda.png; sourceTree = "<group>"; };
+		4CCCCC071C5B259400617FD5 /* Garlic bread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Garlic bread.png"; sourceTree = "<group>"; };
+		4CCCCC081C5B259400617FD5 /* Garlic Mushroom Fried Rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Garlic Mushroom Fried Rice.png"; sourceTree = "<group>"; };
+		4CCCCC091C5B259400617FD5 /* Gulab jamun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gulab jamun.png"; sourceTree = "<group>"; };
+		4CCCCC0A1C5B259400617FD5 /* Imported fruit salads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Imported fruit salads.png"; sourceTree = "<group>"; };
+		4CCCCC0B1C5B259400617FD5 /* Italian Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Italian Pizza.png"; sourceTree = "<group>"; };
+		4CCCCC0C1C5B259400617FD5 /* Manchow Soup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manchow Soup.png"; sourceTree = "<group>"; };
+		4CCCCC0D1C5B259400617FD5 /* Mini Samosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mini Samosa.png"; sourceTree = "<group>"; };
+		4CCCCC0E1C5B259400617FD5 /* Nachos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nachos.png; sourceTree = "<group>"; };
+		4CCCCC0F1C5B259400617FD5 /* Navratna Kurma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Navratna Kurma.png"; sourceTree = "<group>"; };
+		4CCCCC101C5B259400617FD5 /* Palak Paneer Pulav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Palak Paneer Pulav.png"; sourceTree = "<group>"; };
+		4CCCCC111C5B259400617FD5 /* Paneer Kulcha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Paneer Kulcha.png"; sourceTree = "<group>"; };
+		4CCCCC121C5B259400617FD5 /* Pot Kulfi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pot Kulfi.png"; sourceTree = "<group>"; };
+		4CCCCC131C5B259400617FD5 /* ragda patties.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ragda patties.png"; sourceTree = "<group>"; };
+		4CCCCC141C5B259400617FD5 /* Rajma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rajma.png; sourceTree = "<group>"; };
+		4CCCCC151C5B259400617FD5 /* Real Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Real Orange.png"; sourceTree = "<group>"; };
+		4CCCCC161C5B259400617FD5 /* Russian Salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Russian Salad.png"; sourceTree = "<group>"; };
+		4CCCCC171C5B259400617FD5 /* Sandwich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sandwich.png; sourceTree = "<group>"; };
+		4CCCCC181C5B259400617FD5 /* Semiya Biriyani.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Semiya Biriyani.png"; sourceTree = "<group>"; };
+		4CCCCC191C5B259400617FD5 /* Sprouted Channa Salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sprouted Channa Salad.png"; sourceTree = "<group>"; };
+		4CCCCC1A1C5B259400617FD5 /* Sweet Corn Soup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sweet Corn Soup.png"; sourceTree = "<group>"; };
+		4CCCCC1B1C5B259400617FD5 /* Tandoori Roti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tandoori Roti.png"; sourceTree = "<group>"; };
+		4CCCCC1C1C5B259400617FD5 /* Veg Jalfraize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Veg Jalfraize.png"; sourceTree = "<group>"; };
+		4CCCCC1D1C5B259400617FD5 /* veg manchurian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "veg manchurian.png"; sourceTree = "<group>"; };
+		4CCCCC1E1C5B259400617FD5 /* Avocado Pomegranate Crostini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Avocado Pomegranate Crostini.png"; sourceTree = "<group>"; };
+		4CCCCC1F1C5B259400617FD5 /* Dal Makhani.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dal Makhani.png"; sourceTree = "<group>"; };
+		4CCCCC201C5B259400617FD5 /* Kashmiri Pulav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kashmiri Pulav.png"; sourceTree = "<group>"; };
+		4CCCCC211C5B259400617FD5 /* Malai Kofta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Malai Kofta.png"; sourceTree = "<group>"; };
+		4CCCCC221C5B259400617FD5 /* Naan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Naan.png; sourceTree = "<group>"; };
+		4CCCCC231C5B259400617FD5 /* Paneer Makhni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Paneer Makhni.png"; sourceTree = "<group>"; };
+		4CCCCC241C5B259400617FD5 /* roti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roti.png; sourceTree = "<group>"; };
+		4CCCCC251C5B259400617FD5 /* salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salad.png; sourceTree = "<group>"; };
+		4CCCCC261C5B259400617FD5 /* Salsa-Stuffed Puff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Salsa-Stuffed Puff.png"; sourceTree = "<group>"; };
+		4CCCCC271C5B259400617FD5 /* Stuffed Masala Naan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stuffed Masala Naan.png"; sourceTree = "<group>"; };
+		4CCCCC281C5B259400617FD5 /* Tomatosoup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tomatosoup.png; sourceTree = "<group>"; };
+		4CCCCC291C5B259400617FD5 /* Vegan Lasagna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vegan Lasagna.png"; sourceTree = "<group>"; };
+		4CCCCC2A1C5B259400617FD5 /* VegetableSoup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VegetableSoup.png; sourceTree = "<group>"; };
+		4CCCCC2B1C5B259400617FD5 /* Vegetarian Spaghetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vegetarian Spaghetti.png"; sourceTree = "<group>"; };
+		4CD892191C7FF9590082F49C /* WeddingPredefinedGold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeddingPredefinedGold.h; sourceTree = "<group>"; };
+		4CD8921A1C7FF9590082F49C /* WeddingPredefinedGold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeddingPredefinedGold.m; sourceTree = "<group>"; };
+		4CD8921C1C7FF9BE0082F49C /* GetTogetherPredefinedGold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTogetherPredefinedGold.h; sourceTree = "<group>"; };
+		4CD8921D1C7FF9BE0082F49C /* GetTogetherPredefinedGold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTogetherPredefinedGold.m; sourceTree = "<group>"; };
+		4CD8921F1C7FF9D40082F49C /* BirthdayPredefinedGold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthdayPredefinedGold.h; sourceTree = "<group>"; };
+		4CD892201C7FF9D40082F49C /* BirthdayPredefinedGold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayPredefinedGold.m; sourceTree = "<group>"; };
+		4CD892221C7FF9F10082F49C /* CorporatePredefinedGold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorporatePredefinedGold.h; sourceTree = "<group>"; };
+		4CD892231C7FF9F10082F49C /* CorporatePredefinedGold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorporatePredefinedGold.m; sourceTree = "<group>"; };
+		4CD892251C7FFA080082F49C /* ReceptionPredefinedGold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceptionPredefinedGold.h; sourceTree = "<group>"; };
+		4CD892261C7FFA080082F49C /* ReceptionPredefinedGold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceptionPredefinedGold.m; sourceTree = "<group>"; };
+		4CD892281C7FFA1D0082F49C /* GraduationPredefinedGold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraduationPredefinedGold.h; sourceTree = "<group>"; };
+		4CD892291C7FFA1D0082F49C /* GraduationPredefinedGold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraduationPredefinedGold.m; sourceTree = "<group>"; };
+		4CE1B4671B7E14A800613803 /* E-Fiesta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Fiesta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE1B46B1B7E14A800613803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE1B46C1B7E14A800613803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CE1B46E1B7E14A800613803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CE1B46F1B7E14A800613803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CE1B4751B7E14A800613803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CE1B4771B7E14A800613803 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CE1B47A1B7E14A800613803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4CE1B4801B7E14A800613803 /* E-FiestaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-FiestaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE1B4851B7E14A800613803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE1B4861B7E14A900613803 /* E_FiestaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = E_FiestaTests.m; sourceTree = "<group>"; };
+		4CE8B7291C35431400C759A3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4CED394E1C24312700CEC19F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4CED394F1C24312700CEC19F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4CED39501C24312700CEC19F /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		4CED39511C24312700CEC19F /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		4CED39521C24312700CEC19F /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		4CED39531C24312700CEC19F /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		4CEE2B891CA0386800E38A16 /* Payment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payment.h; sourceTree = "<group>"; };
+		4CEE2B8A1CA0386900E38A16 /* Payment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payment.m; sourceTree = "<group>"; };
+		4CEF97671C3E8E7800EE750B /* CustomizedPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedPackage.h; sourceTree = "<group>"; };
+		4CEF97681C3E8E7800EE750B /* CustomizedPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedPackage.m; sourceTree = "<group>"; };
+		4CF1BAFD1C368E3100DA3D0F /* Wedding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wedding.h; sourceTree = "<group>"; };
+		4CF1BAFE1C368E3100DA3D0F /* Wedding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wedding.m; sourceTree = "<group>"; };
+		4CF1BB001C368F4700DA3D0F /* GetTogether.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTogether.h; sourceTree = "<group>"; };
+		4CF1BB011C368F4700DA3D0F /* GetTogether.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTogether.m; sourceTree = "<group>"; };
+		4CF1BB031C368F6300DA3D0F /* BirthdayParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthdayParty.h; sourceTree = "<group>"; };
+		4CF1BB041C368F6300DA3D0F /* BirthdayParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayParty.m; sourceTree = "<group>"; };
+		4CF1BB061C368F7A00DA3D0F /* CorporateParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorporateParty.h; sourceTree = "<group>"; };
+		4CF1BB071C368F7A00DA3D0F /* CorporateParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorporateParty.m; sourceTree = "<group>"; };
+		4CF1BB091C368FB800DA3D0F /* Reception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reception.h; sourceTree = "<group>"; };
+		4CF1BB0A1C368FB800DA3D0F /* Reception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reception.m; sourceTree = "<group>"; };
+		4CF1BB0C1C36927000DA3D0F /* GraduationParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraduationParty.h; sourceTree = "<group>"; };
+		4CF1BB0D1C36927000DA3D0F /* GraduationParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraduationParty.m; sourceTree = "<group>"; };
+		8B01B5FB1CBBEF20004E15D0 /* CancelOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelOrderCell.h; sourceTree = "<group>"; };
+		8B01B5FC1CBBEF20004E15D0 /* CancelOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelOrderCell.m; sourceTree = "<group>"; };
+		8B6611E21CA6C379001FB6AC /* ForgetPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPassword.h; sourceTree = "<group>"; };
+		8B6611E31CA6C379001FB6AC /* ForgetPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPassword.m; sourceTree = "<group>"; };
+		8BFD73FF1CAD5B5D00E28C16 /* CancelOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelOrder.h; sourceTree = "<group>"; };
+		8BFD74001CAD5B5D00E28C16 /* CancelOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelOrder.m; sourceTree = "<group>"; };
+		BDCA30A81C75CC5500BEDCEA /* LocationScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationScreen.h; sourceTree = "<group>"; };
+		BDCA30A91C75CC5500BEDCEA /* LocationScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationScreen.m; sourceTree = "<group>"; };
+		BDCA30AB1C75CD8500BEDCEA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BDCA30AD1C75CDBD00BEDCEA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CE1B4641B7E14A800613803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCA30AE1C75CDBD00BEDCEA /* CoreLocation.framework in Frameworks */,
+				BDCA30AC1C75CD8500BEDCEA /* MapKit.framework in Frameworks */,
+				4CE8B72A1C35431500C759A3 /* libsqlite3.tbd in Frameworks */,
+				4C31B9681BDA7EEF0009FAE6 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE1B47D1B7E14A800613803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C250C061BB699D800158378 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4C250C071BB699D800158378 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				4C250C201BB69A0200158378 /* Constant.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		4C250C081BB699D800158378 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C250C0D1BB699D800158378 /* LoginPage.h */,
+				4C250C0E1BB699D800158378 /* LoginPage.m */,
+				8B6611E21CA6C379001FB6AC /* ForgetPassword.h */,
+				8B6611E31CA6C379001FB6AC /* ForgetPassword.m */,
+				4C250C0F1BB699D800158378 /* RegistrationPage.h */,
+				4C250C101BB699D800158378 /* RegistrationPage.m */,
+				4C250C0B1BB699D800158378 /* HomePage.h */,
+				4C250C0C1BB699D800158378 /* HomePage.m */,
+				BDCA30A81C75CC5500BEDCEA /* LocationScreen.h */,
+				BDCA30A91C75CC5500BEDCEA /* LocationScreen.m */,
+				4C2568F91C0053CE00A98777 /* Menu.h */,
+				4C2568FA1C0053CE00A98777 /* Menu.m */,
+				8BFD73FF1CAD5B5D00E28C16 /* CancelOrder.h */,
+				8BFD74001CAD5B5D00E28C16 /* CancelOrder.m */,
+				4CF1BAFD1C368E3100DA3D0F /* Wedding.h */,
+				4CF1BAFE1C368E3100DA3D0F /* Wedding.m */,
+				4C2AD2531C3FCF930071B246 /* WeddingPredefined.h */,
+				4C2AD2541C3FCF930071B246 /* WeddingPredefined.m */,
+				4CD892191C7FF9590082F49C /* WeddingPredefinedGold.h */,
+				4CD8921A1C7FF9590082F49C /* WeddingPredefinedGold.m */,
+				4CF1BB001C368F4700DA3D0F /* GetTogether.h */,
+				4CF1BB011C368F4700DA3D0F /* GetTogether.m */,
+				4C2AD2561C3FCFBE0071B246 /* GetTogetherPredefined.h */,
+				4C2AD2571C3FCFBE0071B246 /* GetTogetherPredefined.m */,
+				4CD8921C1C7FF9BE0082F49C /* GetTogetherPredefinedGold.h */,
+				4CD8921D1C7FF9BE0082F49C /* GetTogetherPredefinedGold.m */,
+				4CF1BB031C368F6300DA3D0F /* BirthdayParty.h */,
+				4CF1BB041C368F6300DA3D0F /* BirthdayParty.m */,
+				4C2AD2591C3FCFD60071B246 /* BirthdayPredefined.h */,
+				4C2AD25A1C3FCFD60071B246 /* BirthdayPredefined.m */,
+				4CD8921F1C7FF9D40082F49C /* BirthdayPredefinedGold.h */,
+				4CD892201C7FF9D40082F49C /* BirthdayPredefinedGold.m */,
+				4CF1BB061C368F7A00DA3D0F /* CorporateParty.h */,
+				4CF1BB071C368F7A00DA3D0F /* CorporateParty.m */,
+				4C2AD25C1C3FCFEB0071B246 /* CorporatePredefined.h */,
+				4C2AD25D1C3FCFEB0071B246 /* CorporatePredefined.m */,
+				4CD892221C7FF9F10082F49C /* CorporatePredefinedGold.h */,
+				4CD892231C7FF9F10082F49C /* CorporatePredefinedGold.m */,
+				4CF1BB091C368FB800DA3D0F /* Reception.h */,
+				4CF1BB0A1C368FB800DA3D0F /* Reception.m */,
+				4C2AD25F1C3FCFFF0071B246 /* ReceptionPredefined.h */,
+				4C2AD2601C3FCFFF0071B246 /* ReceptionPredefined.m */,
+				4CD892251C7FFA080082F49C /* ReceptionPredefinedGold.h */,
+				4CD892261C7FFA080082F49C /* ReceptionPredefinedGold.m */,
+				4CF1BB0C1C36927000DA3D0F /* GraduationParty.h */,
+				4CF1BB0D1C36927000DA3D0F /* GraduationParty.m */,
+				4C2AD2621C3FD0170071B246 /* GraduationPredefined.h */,
+				4C2AD2631C3FD0180071B246 /* GraduationPredefined.m */,
+				4CD892281C7FFA1D0082F49C /* GraduationPredefinedGold.h */,
+				4CD892291C7FFA1D0082F49C /* GraduationPredefinedGold.m */,
+				4C250C091BB699D800158378 /* AboutUs.h */,
+				4C250C0A1BB699D800158378 /* AboutUs.m */,
+				4C0B1A311BE4AFE500128B54 /* ContactUs.h */,
+				4C0B1A321BE4AFE500128B54 /* ContactUs.m */,
+				4C15B6911BECC52F009F9C50 /* Feedback.h */,
+				4C15B6921BECC52F009F9C50 /* Feedback.m */,
+				4CBDD8691C8806E900D6C1A2 /* ClientFeedbacks.h */,
+				4CBDD86A1C8806E900D6C1A2 /* ClientFeedbacks.m */,
+				4C15B6A31BECD3B7009F9C50 /* GalleryScreen.h */,
+				4C15B6A41BECD3B7009F9C50 /* GalleryScreen.m */,
+				4CEF97671C3E8E7800EE750B /* CustomizedPackage.h */,
+				4CEF97681C3E8E7800EE750B /* CustomizedPackage.m */,
+				4CC0C54A1C645D3400C56FC6 /* UserInformation.h */,
+				4CC0C54B1C645D3400C56FC6 /* UserInformation.m */,
+				4CC0C54D1C646AF500C56FC6 /* OrderReceiptScreen.h */,
+				4CC0C54E1C646AF500C56FC6 /* OrderReceiptScreen.m */,
+				4CEE2B891CA0386800E38A16 /* Payment.h */,
+				4CEE2B8A1CA0386900E38A16 /* Payment.m */,
+				4CED394E1C24312700CEC19F /* DetailViewController.h */,
+				4CED394F1C24312700CEC19F /* DetailViewController.m */,
+				4CED39501C24312700CEC19F /* Cell.h */,
+				4CED39511C24312700CEC19F /* Cell.m */,
+				4CED39521C24312700CEC19F /* CustomCellBackground.h */,
+				4CED39531C24312700CEC19F /* CustomCellBackground.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C250C131BB699D800158378 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4CBDD8671C87E8D600D6C1A2 /* CorporateBackground.png */,
+				4C6C55C41C7570C0003CE1AF /* BirthdayBackground.png */,
+				4C6C55C61C7570C0003CE1AF /* GettogetherBackground.png */,
+				4C6C55C71C7570C0003CE1AF /* GraduationBackground.png */,
+				4CA371FA1C6C3D080031BFD2 /* ReceptionBackground.png */,
+				4CA371FB1C6C3D080031BFD2 /* WeddingBackground.png */,
+				4CC546C71C630650002F1A8A /* Imarti.png */,
+				4CC546C81C630650002F1A8A /* Passion Fruit Cheesecake.png */,
+				4CC546C91C630650002F1A8A /* Spaghetti.png */,
+				4CC546CA1C630650002F1A8A /* Strawberry Meringue Tower.png */,
+				4CC546CB1C630650002F1A8A /* Vegan potato curry.png */,
+				4CC546C31C62F825002F1A8A /* rice.png */,
+				4CC546C41C62F825002F1A8A /* Fried rice.png */,
+				4CCCCBFD1C5B259400617FD5 /* Angoor Basundi.png */,
+				4CCCCBFE1C5B259400617FD5 /* Apple Cucumber Salad.png */,
+				4CCCCBFF1C5B259400617FD5 /* Apple Halwa.png */,
+				4CCCCC001C5B259400617FD5 /* Badam Cassata.png */,
+				4CCCCC011C5B259400617FD5 /* Cadburry Roll.png */,
+				4CCCCC021C5B259400617FD5 /* Chocolate mousse.png */,
+				4CCCCC031C5B259400617FD5 /* Cocktail Kachori.png */,
+				4CCCCC041C5B259400617FD5 /* Corn Capsicum Pulav.png */,
+				4CCCCC051C5B259400617FD5 /* Dahi Puri.png */,
+				4CCCCC061C5B259400617FD5 /* Faluda.png */,
+				4CCCCC071C5B259400617FD5 /* Garlic bread.png */,
+				4CCCCC081C5B259400617FD5 /* Garlic Mushroom Fried Rice.png */,
+				4CCCCC091C5B259400617FD5 /* Gulab jamun.png */,
+				4CCCCC0A1C5B259400617FD5 /* Imported fruit salads.png */,
+				4CCCCC0B1C5B259400617FD5 /* Italian Pizza.png */,
+				4CCCCC0C1C5B259400617FD5 /* Manchow Soup.png */,
+				4CCCCC0D1C5B259400617FD5 /* Mini Samosa.png */,
+				4CCCCC0E1C5B259400617FD5 /* Nachos.png */,
+				4CCCCC0F1C5B259400617FD5 /* Navratna Kurma.png */,
+				4CCCCC101C5B259400617FD5 /* Palak Paneer Pulav.png */,
+				4CCCCC111C5B259400617FD5 /* Paneer Kulcha.png */,
+				4CCCCC121C5B259400617FD5 /* Pot Kulfi.png */,
+				4CCCCC131C5B259400617FD5 /* ragda patties.png */,
+				4CCCCC141C5B259400617FD5 /* Rajma.png */,
+				4CCCCC151C5B259400617FD5 /* Real Orange.png */,
+				4CCCCC161C5B259400617FD5 /* Russian Salad.png */,
+				4CCCCC171C5B259400617FD5 /* Sandwich.png */,
+				4CCCCC181C5B259400617FD5 /* Semiya Biriyani.png */,
+				4CCCCC191C5B259400617FD5 /* Sprouted Channa Salad.png */,
+				4CCCCC1A1C5B259400617FD5 /* Sweet Corn Soup.png */,
+				4CCCCC1B1C5B259400617FD5 /* Tandoori Roti.png */,
+				4CCCCC1C1C5B259400617FD5 /* Veg Jalfraize.png */,
+				4CCCCC1D1C5B259400617FD5 /* veg manchurian.png */,
+				4CCCCC1E1C5B259400617FD5 /* Avocado Pomegranate Crostini.png */,
+				4CCCCC1F1C5B259400617FD5 /* Dal Makhani.png */,
+				4CCCCC201C5B259400617FD5 /* Kashmiri Pulav.png */,
+				4CCCCC211C5B259400617FD5 /* Malai Kofta.png */,
+				4CCCCC221C5B259400617FD5 /* Naan.png */,
+				4CCCCC231C5B259400617FD5 /* Paneer Makhni.png */,
+				4CCCCC241C5B259400617FD5 /* roti.png */,
+				4CCCCC251C5B259400617FD5 /* salad.png */,
+				4CCCCC261C5B259400617FD5 /* Salsa-Stuffed Puff.png */,
+				4CCCCC271C5B259400617FD5 /* Stuffed Masala Naan.png */,
+				4CCCCC281C5B259400617FD5 /* Tomatosoup.png */,
+				4CCCCC291C5B259400617FD5 /* Vegan Lasagna.png */,
+				4CCCCC2A1C5B259400617FD5 /* VegetableSoup.png */,
+				4CCCCC2B1C5B259400617FD5 /* Vegetarian Spaghetti.png */,
+				4C3D76AE1C4FA0890084FC89 /* cake.png */,
+				4C3D76AC1C4F9F030084FC89 /* pavbhaji.png */,
+				4C3D76A61C4F9EA80084FC89 /* chips.png */,
+				4C3D76A71C4F9EA80084FC89 /* cholebature.png */,
+				4C3D76A81C4F9EA80084FC89 /* icecream.png */,
+				4C3D76A41C4F9C550084FC89 /* cheesepizza.png */,
+				4C690CCE1C4675E9009BDF79 /* Cheesecake.png */,
+				4C690CCF1C4675E9009BDF79 /* lemon pavlovas.png */,
+				4C690CD01C4675E9009BDF79 /* about_us_icon.png */,
+				4C690CD11C4675E9009BDF79 /* Feedback.png */,
+				4C690CD21C4675E9009BDF79 /* Location.png */,
+				4C690CD31C4675E9009BDF79 /* Menu.png */,
+				4C690CD41C4675E9009BDF79 /* aloo gobi paratha.png */,
+				4C690CD51C4675E9009BDF79 /* Aloo paratha.png */,
+				4C690CD61C4675E9009BDF79 /* Aloo_Took.png */,
+				4C690CD71C4675E9009BDF79 /* Aloo-ki-Sabzi.png */,
+				4C690CD81C4675E9009BDF79 /* aloo-tikki.png */,
+				4C690CD91C4675E9009BDF79 /* Ananas-Menaskai.png */,
+				4C690CDA1C4675E9009BDF79 /* arnie-palmer.png */,
+				4C690CDB1C4675E9009BDF79 /* Baked-Baby-Potatoes-with-Lime-Mayonnaise.png */,
+				4C690CDC1C4675E9009BDF79 /* Bhindi-ki-Sabzi.png */,
+				4C690CDD1C4675E9009BDF79 /* Birthday.png */,
+				4C690CDE1C4675E9009BDF79 /* Birthday2.png */,
+				4C690CDF1C4675E9009BDF79 /* blackberry cocoa sorbet.png */,
+				4C690CE01C4675E9009BDF79 /* blueberry-lemonade.png */,
+				4C690CE11C4675E9009BDF79 /* bubbly-lemonade.png */,
+				4C690CE21C4675E9009BDF79 /* Cabbage paratha.png */,
+				4C690CE31C4675E9009BDF79 /* carrot cheese paratha.png */,
+				4C690CE41C4675E9009BDF79 /* carrotpeasparatha.png */,
+				4C690CE51C4675E9009BDF79 /* champgne_gelee.png */,
+				4C690CE61C4675E9009BDF79 /* Chana-Dal-aur-Soya-Wadi-ki-Sabzi.png */,
+				4C690CE71C4675E9009BDF79 /* cheese-balls.png */,
+				4C690CE81C4675E9009BDF79 /* cherry blossom.png */,
+				4C690CE91C4675E9009BDF79 /* chicken-satay.png */,
+				4C690CEA1C4675E9009BDF79 /* Chilli-Paneer.png */,
+				4C690CEB1C4675E9009BDF79 /* chocolate pudding.png */,
+				4C690CEC1C4675E9009BDF79 /* Chole-Chana-Dal.png */,
+				4C690CED1C4675E9009BDF79 /* cold cherry soup.png */,
+				4C690CEE1C4675E9009BDF79 /* ContactUs.png */,
+				4C690CEF1C4675E9009BDF79 /* Corporate.png */,
+				4C690CF01C4675E9009BDF79 /* Corporate1.png */,
+				4C690CF11C4675E9009BDF79 /* cranberry-punch.png */,
+				4C690CF21C4675E9009BDF79 /* cream cheese cake.png */,
+				4C690CF31C4675E9009BDF79 /* Creamy-Mushroom.png */,
+				4C690CF41C4675E9009BDF79 /* Dahi-ki-Sabzi.png */,
+				4C690CF51C4675E9009BDF79 /* download.png */,
+				4C690CF61C4675E9009BDF79 /* energy-drink.png */,
+				4C690CF71C4675E9009BDF79 /* family-sangria.png */,
+				4C690CF81C4675E9009BDF79 /* fancy-coffee-drink.png */,
+				4C690CF91C4675E9009BDF79 /* Feedback2.png */,
+				4C690CFA1C4675E9009BDF79 /* French-Beans-with-Moong-Dal.png */,
+				4C690CFB1C4675E9009BDF79 /* frozen strawberry souffles.png */,
+				4C690CFC1C4675E9009BDF79 /* Gallery.png */,
+				4C690CFD1C4675E9009BDF79 /* Garlic-Grilled-Tomatoes.png */,
+				4C690CFE1C4675E9009BDF79 /* Garlicky_Pepper_Mushroom_Stir_Fry.png */,
+				4C690CFF1C4675E9009BDF79 /* get-together.png */,
+				4C690D001C4675E9009BDF79 /* Get-together1.png */,
+				4C690D011C4675E9009BDF79 /* Graduation.png */,
+				4C690D021C4675E9009BDF79 /* Green-Peas-Mash.png */,
+				4C690D031C4675E9009BDF79 /* heavenly ice.png */,
+				4C690D041C4675E9009BDF79 /* icecream cone.png */,
+				4C690D051C4675E9009BDF79 /* icecream cookie sandwich.png */,
+				4C690D061C4675E9009BDF79 /* icecream cups.png */,
+				4C690D071C4675E9009BDF79 /* icecream sandwich.png */,
+				4C690D081C4675E9009BDF79 /* kakori-kebabs.png */,
+				4C690D091C4675E9009BDF79 /* Lauki-Kiwi-Masala.png */,
+				4C690D0A1C4675E9009BDF79 /* layered icecreamtreat.png */,
+				4C690D0B1C4675E9009BDF79 /* lemonbombe.png */,
+				4C690D0C1C4675E9009BDF79 /* Lobia_Kebabs.png */,
+				4C690D0D1C4675E9009BDF79 /* Location2.png */,
+				4C690D0E1C4675E9009BDF79 /* luster dusted.png */,
+				4C690D0F1C4675E9009BDF79 /* Makhmali_Rajma_Kofta.png */,
+				4C690D101C4675E9009BDF79 /* masala chapathi.png */,
+				4C690D111C4675E9009BDF79 /* masala palak paratha.png */,
+				4C690D121C4675E9009BDF79 /* Menu2.png */,
+				4C690D131C4675E9009BDF79 /* merry-mimosa.png */,
+				4C690D141C4675E9009BDF79 /* methi thepla.png */,
+				4C690D151C4675E9009BDF79 /* mini chocolate.png */,
+				4C690D161C4675E9009BDF79 /* mini doughnuts.png */,
+				4C690D171C4675E9009BDF79 /* miniature white cake.png */,
+				4C690D181C4675E9009BDF79 /* Mixed Veg paratha.png */,
+				4C690D191C4675E9009BDF79 /* Mixed_Vegetable_Noodle_Cutlet.png */,
+				4C690D1A1C4675E9009BDF79 /* Mooli paratha.png */,
+				4C690D1B1C4675E9009BDF79 /* mud-sodas.png */,
+				4C690D1C1C4675E9009BDF79 /* Mushroom_on_Toast.png */,
+				4C690D1D1C4675E9009BDF79 /* Mushroom.png */,
+				4C690D1E1C4675E9009BDF79 /* notselectedcheckbox.png */,
+				4C690D1F1C4675E9009BDF79 /* Paneer_Bread_Balls.png */,
+				4C690D201C4675E9009BDF79 /* paneer-tikka.png */,
+				4C690D211C4675E9009BDF79 /* pavlovas.png */,
+				4C690D221C4675E9009BDF79 /* peach-daiquiri.png */,
+				4C690D231C4675E9009BDF79 /* peaches and cream ice pops.png */,
+				4C690D241C4675E9009BDF79 /* Peanut_chaat.png */,
+				4C690D251C4675E9009BDF79 /* Peas paratha.png */,
+				4C690D261C4675E9009BDF79 /* Rajgira_Aloo_Tikki.png */,
+				4C690D271C4675E9009BDF79 /* Rajma paratha.png */,
+				4C690D281C4675E9009BDF79 /* Rajma_Veg_Galouti_Kebab.png */,
+				4C690D291C4675E9009BDF79 /* raspberry-sparkler.png */,
+				4C690D2A1C4675E9009BDF79 /* reception.png */,
+				4C690D2B1C4675E9009BDF79 /* roulades.png */,
+				4C690D2C1C4675E9009BDF79 /* Samosas_with_Minced_Mushroom_Paneer_and_Soya_chunks.png */,
+				4C690D2D1C4675E9009BDF79 /* Savory_Tart.png */,
+				4C690D2E1C4675E9009BDF79 /* selectedcheckbox.png */,
+				4C690D2F1C4675E9009BDF79 /* Shahi-Paneer.png */,
+				4C690D301C4675E9009BDF79 /* shirley-temple.png */,
+				4C690D311C4675E9009BDF79 /* smoothies.png */,
+				4C690D321C4675E9009BDF79 /* sorbet bombe.png */,
+				4C690D331C4675E9009BDF79 /* strawberry shaped icecream.png */,
+				4C690D341C4675E9009BDF79 /* strawberry-citrus.png */,
+				4C690D351C4675E9009BDF79 /* summer-punch.png */,
+				4C690D361C4675E9009BDF79 /* Suran_Fodi.png */,
+				4C690D371C4675E9009BDF79 /* sweet nut cups.png */,
+				4C690D381C4675E9009BDF79 /* Sweet_Corn_Oats_Fritters.png */,
+				4C690D391C4675E9009BDF79 /* swirled chocolate icecream.png */,
+				4C690D3A1C4675E9009BDF79 /* Tandoori_Gobi_Tikka.png */,
+				4C690D3B1C4675E9009BDF79 /* Titori.png */,
+				4C690D3C1C4675E9009BDF79 /* tropical bombe.png */,
+				4C690D3D1C4675E9009BDF79 /* vanilla-soy-coffee.png */,
+				4C690D3E1C4675E9009BDF79 /* Vatana-Batata-Cauliflower-Sukke.png */,
+				4C690D3F1C4675E9009BDF79 /* watermelon-kiwifruit.png */,
+				4C690D401C4675E9009BDF79 /* Wedding.png */,
+				4C250C141BB699D800158378 /* Off.png */,
+				4C250C151BB699D800158378 /* On.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4C250C161BB699D800158378 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C31B95F1BDA75290009FAE6 /* NSString+NSString.h */,
+				4C31B9601BDA75290009FAE6 /* NSString+NSString.m */,
+				4C915E031C9C378A00DD38B9 /* DBManager.h */,
+				4C915E041C9C378A00DD38B9 /* DBManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C250C171BB699D800158378 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4C250C181BB699D800158378 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C690DB41C46773D009BDF79 /* CustomizedScreenCell.h */,
+				4C690DB51C46773D009BDF79 /* CustomizedScreenCell.m */,
+				4C3D76B01C4FA81B0084FC89 /* BirthdayPredefinedScreenCell.h */,
+				4C3D76B11C4FA81B0084FC89 /* BirthdayPredefinedScreenCell.m */,
+				4CBAD4831C524439003B0907 /* GraduationPredefinedScreenCell.h */,
+				4CBAD4841C524439003B0907 /* GraduationPredefinedScreenCell.m */,
+				4CBAD4861C524469003B0907 /* GetTogetherPredefinedScreenCell.h */,
+				4CBAD4871C524469003B0907 /* GetTogetherPredefinedScreenCell.m */,
+				4CBAD4891C52448B003B0907 /* ReceptionPredefinedScreenCell.h */,
+				4CBAD48A1C52448B003B0907 /* ReceptionPredefinedScreenCell.m */,
+				4CBAD48C1C5244A5003B0907 /* CorporatePredefinedScreenCell.h */,
+				4CBAD48D1C5244A5003B0907 /* CorporatePredefinedScreenCell.m */,
+				4CBAD48F1C5244C1003B0907 /* WeddingPredefinedScreenCell.h */,
+				4CBAD4901C5244C1003B0907 /* WeddingPredefinedScreenCell.m */,
+				8B01B5FB1CBBEF20004E15D0 /* CancelOrderCell.h */,
+				8B01B5FC1CBBEF20004E15D0 /* CancelOrderCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CE1B45E1B7E14A800613803 = {
+			isa = PBXGroup;
+			children = (
+				BDCA30AD1C75CDBD00BEDCEA /* CoreLocation.framework */,
+				BDCA30AB1C75CD8500BEDCEA /* MapKit.framework */,
+				4CE8B7291C35431400C759A3 /* libsqlite3.tbd */,
+				4C915E011C9C375F00DD38B9 /* E-FiestaDb.sqlite */,
+				4C31B9661BDA7EEF0009FAE6 /* libsqlite3.0.dylib */,
+				4C31B9671BDA7EEF0009FAE6 /* libsqlite3.dylib */,
+				4CE1B4691B7E14A800613803 /* E-Fiesta */,
+				4CE1B4831B7E14A800613803 /* E-FiestaTests */,
+				4CE1B4681B7E14A800613803 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CE1B4681B7E14A800613803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CE1B4671B7E14A800613803 /* E-Fiesta.app */,
+				4CE1B4801B7E14A800613803 /* E-FiestaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CE1B4691B7E14A800613803 /* E-Fiesta */ = {
+			isa = PBXGroup;
+			children = (
+				4CE1B46E1B7E14A800613803 /* AppDelegate.h */,
+				4CE1B46F1B7E14A800613803 /* AppDelegate.m */,
+				4CE1B4741B7E14A800613803 /* Main.storyboard */,
+				4CE1B4771B7E14A800613803 /* Images.xcassets */,
+				4CE1B4791B7E14A800613803 /* LaunchScreen.xib */,
+				4C250C071BB699D800158378 /* Constant */,
+				4C250C061BB699D800158378 /* Category */,
+				4C250C081BB699D800158378 /* Controllers */,
+				4C250C131BB699D800158378 /* Image */,
+				4C250C161BB699D800158378 /* Model */,
+				4C250C171BB699D800158378 /* SupportingFiles */,
+				4C250C181BB699D800158378 /* View */,
+				4CE1B46A1B7E14A800613803 /* Supporting Files */,
+			);
+			path = "E-Fiesta";
+			sourceTree = "<group>";
+		};
+		4CE1B46A1B7E14A800613803 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CE1B46B1B7E14A800613803 /* Info.plist */,
+				4CE1B46C1B7E14A800613803 /* main.m */,
+				4C250C211BB69A4A00158378 /* E-Fiesta-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CE1B4831B7E14A800613803 /* E-FiestaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CE1B4861B7E14A900613803 /* E_FiestaTests.m */,
+				4CE1B4841B7E14A800613803 /* Supporting Files */,
+			);
+			path = "E-FiestaTests";
+			sourceTree = "<group>";
+		};
+		4CE1B4841B7E14A800613803 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CE1B4851B7E14A800613803 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CE1B4661B7E14A800613803 /* E-Fiesta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE1B48A1B7E14A900613803 /* Build configuration list for PBXNativeTarget "E-Fiesta" */;
+			buildPhases = (
+				4CE1B4631B7E14A800613803 /* Sources */,
+				4CE1B4641B7E14A800613803 /* Frameworks */,
+				4CE1B4651B7E14A800613803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-Fiesta";
+			productName = "E-Fiesta";
+			productReference = 4CE1B4671B7E14A800613803 /* E-Fiesta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CE1B47F1B7E14A800613803 /* E-FiestaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE1B48D1B7E14A900613803 /* Build configuration list for PBXNativeTarget "E-FiestaTests" */;
+			buildPhases = (
+				4CE1B47C1B7E14A800613803 /* Sources */,
+				4CE1B47D1B7E14A800613803 /* Frameworks */,
+				4CE1B47E1B7E14A800613803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CE1B4821B7E14A800613803 /* PBXTargetDependency */,
+			);
+			name = "E-FiestaTests";
+			productName = "E-FiestaTests";
+			productReference = 4CE1B4801B7E14A800613803 /* E-FiestaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CE1B45F1B7E14A800613803 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "PC-104";
+				TargetAttributes = {
+					4CE1B4661B7E14A800613803 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					4CE1B47F1B7E14A800613803 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 4CE1B4661B7E14A800613803;
+					};
+				};
+			};
+			buildConfigurationList = 4CE1B4621B7E14A800613803 /* Build configuration list for PBXProject "E-Fiesta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CE1B45E1B7E14A800613803;
+			productRefGroup = 4CE1B4681B7E14A800613803 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CE1B4661B7E14A800613803 /* E-Fiesta */,
+				4CE1B47F1B7E14A800613803 /* E-FiestaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CE1B4651B7E14A800613803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C690D961C4675E9009BDF79 /* peaches and cream ice pops.png in Resources */,
+				4C690D461C4675E9009BDF79 /* Menu.png in Resources */,
+				4C690D8E1C4675E9009BDF79 /* mud-sodas.png in Resources */,
+				4CCCCC331C5B259400617FD5 /* Corn Capsicum Pulav.png in Resources */,
+				4C690DA81C4675E9009BDF79 /* summer-punch.png in Resources */,
+				4CCCCC361C5B259400617FD5 /* Garlic bread.png in Resources */,
+				4C690D851C4675E9009BDF79 /* Menu2.png in Resources */,
+				4C690D5E1C4675E9009BDF79 /* chocolate pudding.png in Resources */,
+				4C690D551C4675E9009BDF79 /* Cabbage paratha.png in Resources */,
+				4C690D9C1C4675E9009BDF79 /* raspberry-sparkler.png in Resources */,
+				4C690D601C4675E9009BDF79 /* cold cherry soup.png in Resources */,
+				4C690D861C4675E9009BDF79 /* merry-mimosa.png in Resources */,
+				4C690D901C4675E9009BDF79 /* Mushroom.png in Resources */,
+				4C690D411C4675E9009BDF79 /* Cheesecake.png in Resources */,
+				4CCCCC3F1C5B259400617FD5 /* Palak Paneer Pulav.png in Resources */,
+				4C690D7B1C4675E9009BDF79 /* kakori-kebabs.png in Resources */,
+				4C250C1F1BB699D800158378 /* On.png in Resources */,
+				4C690D4D1C4675E9009BDF79 /* arnie-palmer.png in Resources */,
+				4C690D9B1C4675E9009BDF79 /* Rajma_Veg_Galouti_Kebab.png in Resources */,
+				4C690D561C4675E9009BDF79 /* carrot cheese paratha.png in Resources */,
+				4CCCCC2D1C5B259400617FD5 /* Apple Cucumber Salad.png in Resources */,
+				4CE1B4761B7E14A800613803 /* Main.storyboard in Resources */,
+				4C3D76A91C4F9EA80084FC89 /* chips.png in Resources */,
+				4C690DA71C4675E9009BDF79 /* strawberry-citrus.png in Resources */,
+				4C690DA31C4675E9009BDF79 /* shirley-temple.png in Resources */,
+				4C690D571C4675E9009BDF79 /* carrotpeasparatha.png in Resources */,
+				4C690D9A1C4675E9009BDF79 /* Rajma paratha.png in Resources */,
+				4CCCCC321C5B259400617FD5 /* Cocktail Kachori.png in Resources */,
+				4C690D721C4675E9009BDF79 /* get-together.png in Resources */,
+				4CC546D01C630650002F1A8A /* Vegan potato curry.png in Resources */,
+				4C690D5F1C4675E9009BDF79 /* Chole-Chana-Dal.png in Resources */,
+				4CCCCC561C5B259400617FD5 /* Stuffed Masala Naan.png in Resources */,
+				4C690D491C4675E9009BDF79 /* Aloo_Took.png in Resources */,
+				4CCCCC591C5B259400617FD5 /* VegetableSoup.png in Resources */,
+				4C690D711C4675E9009BDF79 /* Garlicky_Pepper_Mushroom_Stir_Fry.png in Resources */,
+				4C690D971C4675E9009BDF79 /* Peanut_chaat.png in Resources */,
+				4C690D451C4675E9009BDF79 /* Location.png in Resources */,
+				4C690D741C4675E9009BDF79 /* Graduation.png in Resources */,
+				4CCCCC421C5B259400617FD5 /* ragda patties.png in Resources */,
+				4C690D9E1C4675E9009BDF79 /* roulades.png in Resources */,
+				4C690D941C4675E9009BDF79 /* pavlovas.png in Resources */,
+				4C690D761C4675E9009BDF79 /* heavenly ice.png in Resources */,
+				4C3D76AB1C4F9EA80084FC89 /* icecream.png in Resources */,
+				4C690D751C4675E9009BDF79 /* Green-Peas-Mash.png in Resources */,
+				4C690D8C1C4675E9009BDF79 /* Mixed_Vegetable_Noodle_Cutlet.png in Resources */,
+				4C690DAC1C4675E9009BDF79 /* swirled chocolate icecream.png in Resources */,
+				4CCCCC351C5B259400617FD5 /* Faluda.png in Resources */,
+				4C6C55CA1C7570C0003CE1AF /* GettogetherBackground.png in Resources */,
+				4CCCCC431C5B259400617FD5 /* Rajma.png in Resources */,
+				4C690D731C4675E9009BDF79 /* Get-together1.png in Resources */,
+				4CCCCC551C5B259400617FD5 /* Salsa-Stuffed Puff.png in Resources */,
+				4C690D4A1C4675E9009BDF79 /* Aloo-ki-Sabzi.png in Resources */,
+				4C690D771C4675E9009BDF79 /* icecream cone.png in Resources */,
+				4CC546C51C62F826002F1A8A /* rice.png in Resources */,
+				4C690D6F1C4675E9009BDF79 /* Gallery.png in Resources */,
+				4CCCCC5A1C5B259400617FD5 /* Vegetarian Spaghetti.png in Resources */,
+				4CA371FC1C6C3D080031BFD2 /* ReceptionBackground.png in Resources */,
+				4CCCCC521C5B259400617FD5 /* Paneer Makhni.png in Resources */,
+				4C690D5A1C4675E9009BDF79 /* cheese-balls.png in Resources */,
+				4CCCCC2F1C5B259400617FD5 /* Badam Cassata.png in Resources */,
+				4C690D6C1C4675E9009BDF79 /* Feedback2.png in Resources */,
+				4C690D581C4675E9009BDF79 /* champgne_gelee.png in Resources */,
+				4C690D541C4675E9009BDF79 /* bubbly-lemonade.png in Resources */,
+				4C690D431C4675E9009BDF79 /* about_us_icon.png in Resources */,
+				4C690D661C4675E9009BDF79 /* Creamy-Mushroom.png in Resources */,
+				4CCCCC571C5B259400617FD5 /* Tomatosoup.png in Resources */,
+				4CCCCC4E1C5B259400617FD5 /* Dal Makhani.png in Resources */,
+				4C3D76AF1C4FA0890084FC89 /* cake.png in Resources */,
+				4C690D701C4675E9009BDF79 /* Garlic-Grilled-Tomatoes.png in Resources */,
+				4C690DA41C4675E9009BDF79 /* smoothies.png in Resources */,
+				4C690D681C4675E9009BDF79 /* download.png in Resources */,
+				4C690DAA1C4675E9009BDF79 /* sweet nut cups.png in Resources */,
+				4C690D7C1C4675E9009BDF79 /* Lauki-Kiwi-Masala.png in Resources */,
+				4C690D9F1C4675E9009BDF79 /* Samosas_with_Minced_Mushroom_Paneer_and_Soya_chunks.png in Resources */,
+				4C690DB31C4675E9009BDF79 /* Wedding.png in Resources */,
+				4C690D5B1C4675E9009BDF79 /* cherry blossom.png in Resources */,
+				4C250C1E1BB699D800158378 /* Off.png in Resources */,
+				4C690D651C4675E9009BDF79 /* cream cheese cake.png in Resources */,
+				4C690D501C4675E9009BDF79 /* Birthday.png in Resources */,
+				4C690D7F1C4675E9009BDF79 /* Lobia_Kebabs.png in Resources */,
+				4C690D8B1C4675E9009BDF79 /* Mixed Veg paratha.png in Resources */,
+				4CCCCC3C1C5B259400617FD5 /* Mini Samosa.png in Resources */,
+				4C690D791C4675E9009BDF79 /* icecream cups.png in Resources */,
+				4C6C55CB1C7570C0003CE1AF /* GraduationBackground.png in Resources */,
+				4C690DA51C4675E9009BDF79 /* sorbet bombe.png in Resources */,
+				4C690D9D1C4675E9009BDF79 /* reception.png in Resources */,
+				4CCCCC2E1C5B259400617FD5 /* Apple Halwa.png in Resources */,
+				4CCCCC531C5B259400617FD5 /* roti.png in Resources */,
+				4CC546CE1C630650002F1A8A /* Spaghetti.png in Resources */,
+				4CCCCC3E1C5B259400617FD5 /* Navratna Kurma.png in Resources */,
+				4C690DA61C4675E9009BDF79 /* strawberry shaped icecream.png in Resources */,
+				4CCCCC4C1C5B259400617FD5 /* veg manchurian.png in Resources */,
+				4C690D481C4675E9009BDF79 /* Aloo paratha.png in Resources */,
+				4C690DB11C4675E9009BDF79 /* Vatana-Batata-Cauliflower-Sukke.png in Resources */,
+				4CCCCC471C5B259400617FD5 /* Semiya Biriyani.png in Resources */,
+				4C690D511C4675E9009BDF79 /* Birthday2.png in Resources */,
+				4CCCCC4D1C5B259400617FD5 /* Avocado Pomegranate Crostini.png in Resources */,
+				4C3D76A51C4F9C550084FC89 /* cheesepizza.png in Resources */,
+				4CCCCC4B1C5B259400617FD5 /* Veg Jalfraize.png in Resources */,
+				4C690D831C4675E9009BDF79 /* masala chapathi.png in Resources */,
+				4CCCCC501C5B259400617FD5 /* Malai Kofta.png in Resources */,
+				4C690D4B1C4675E9009BDF79 /* aloo-tikki.png in Resources */,
+				4C690D841C4675E9009BDF79 /* masala palak paratha.png in Resources */,
+				4C690D911C4675E9009BDF79 /* notselectedcheckbox.png in Resources */,
+				4CCCCC341C5B259400617FD5 /* Dahi Puri.png in Resources */,
+				4C690DAF1C4675E9009BDF79 /* tropical bombe.png in Resources */,
+				4C915E021C9C375F00DD38B9 /* E-FiestaDb.sqlite in Resources */,
+				4CC546CD1C630650002F1A8A /* Passion Fruit Cheesecake.png in Resources */,
+				4CC546CC1C630650002F1A8A /* Imarti.png in Resources */,
+				4CA371FD1C6C3D080031BFD2 /* WeddingBackground.png in Resources */,
+				4C690D611C4675E9009BDF79 /* ContactUs.png in Resources */,
+				4C690D7D1C4675E9009BDF79 /* layered icecreamtreat.png in Resources */,
+				4CCCCC581C5B259400617FD5 /* Vegan Lasagna.png in Resources */,
+				4C690D6E1C4675E9009BDF79 /* frozen strawberry souffles.png in Resources */,
+				4C690D641C4675E9009BDF79 /* cranberry-punch.png in Resources */,
+				4C690D691C4675E9009BDF79 /* energy-drink.png in Resources */,
+				4C690D871C4675E9009BDF79 /* methi thepla.png in Resources */,
+				4C690D931C4675E9009BDF79 /* paneer-tikka.png in Resources */,
+				4CCCCC2C1C5B259400617FD5 /* Angoor Basundi.png in Resources */,
+				4C690DB21C4675E9009BDF79 /* watermelon-kiwifruit.png in Resources */,
+				4C690D421C4675E9009BDF79 /* lemon pavlovas.png in Resources */,
+				4CCCCC381C5B259400617FD5 /* Gulab jamun.png in Resources */,
+				4C690D4F1C4675E9009BDF79 /* Bhindi-ki-Sabzi.png in Resources */,
+				4CCCCC4A1C5B259400617FD5 /* Tandoori Roti.png in Resources */,
+				4CCCCC3D1C5B259400617FD5 /* Nachos.png in Resources */,
+				4C690D471C4675E9009BDF79 /* aloo gobi paratha.png in Resources */,
+				4C690D671C4675E9009BDF79 /* Dahi-ki-Sabzi.png in Resources */,
+				4CCCCC4F1C5B259400617FD5 /* Kashmiri Pulav.png in Resources */,
+				4CC546CF1C630650002F1A8A /* Strawberry Meringue Tower.png in Resources */,
+				4CCCCC451C5B259400617FD5 /* Russian Salad.png in Resources */,
+				4C690D7E1C4675E9009BDF79 /* lemonbombe.png in Resources */,
+				4C690D881C4675E9009BDF79 /* mini chocolate.png in Resources */,
+				4CCCCC3A1C5B259400617FD5 /* Italian Pizza.png in Resources */,
+				4C690D5D1C4675E9009BDF79 /* Chilli-Paneer.png in Resources */,
+				4CCCCC491C5B259400617FD5 /* Sweet Corn Soup.png in Resources */,
+				4CCCCC481C5B259400617FD5 /* Sprouted Channa Salad.png in Resources */,
+				4C690D4C1C4675E9009BDF79 /* Ananas-Menaskai.png in Resources */,
+				4C690D521C4675E9009BDF79 /* blackberry cocoa sorbet.png in Resources */,
+				4C690DA11C4675E9009BDF79 /* selectedcheckbox.png in Resources */,
+				4CCCCC391C5B259400617FD5 /* Imported fruit salads.png in Resources */,
+				4C690DA01C4675E9009BDF79 /* Savory_Tart.png in Resources */,
+				4C690D8F1C4675E9009BDF79 /* Mushroom_on_Toast.png in Resources */,
+				4C690D801C4675E9009BDF79 /* Location2.png in Resources */,
+				4CCCCC441C5B259400617FD5 /* Real Orange.png in Resources */,
+				4CCCCC461C5B259400617FD5 /* Sandwich.png in Resources */,
+				4CCCCC3B1C5B259400617FD5 /* Manchow Soup.png in Resources */,
+				4C690D7A1C4675E9009BDF79 /* icecream sandwich.png in Resources */,
+				4CCCCC301C5B259400617FD5 /* Cadburry Roll.png in Resources */,
+				4CE1B47B1B7E14A800613803 /* LaunchScreen.xib in Resources */,
+				4C690D811C4675E9009BDF79 /* luster dusted.png in Resources */,
+				4C690D981C4675E9009BDF79 /* Peas paratha.png in Resources */,
+				4CC546C61C62F826002F1A8A /* Fried rice.png in Resources */,
+				4C690D441C4675E9009BDF79 /* Feedback.png in Resources */,
+				4CCCCC401C5B259400617FD5 /* Paneer Kulcha.png in Resources */,
+				4CCCCC541C5B259400617FD5 /* salad.png in Resources */,
+				4CE1B4781B7E14A800613803 /* Images.xcassets in Resources */,
+				4C690D951C4675E9009BDF79 /* peach-daiquiri.png in Resources */,
+				4C690D6A1C4675E9009BDF79 /* family-sangria.png in Resources */,
+				4C690D891C4675E9009BDF79 /* mini doughnuts.png in Resources */,
+				4C690D781C4675E9009BDF79 /* icecream cookie sandwich.png in Resources */,
+				4C690D6D1C4675E9009BDF79 /* French-Beans-with-Moong-Dal.png in Resources */,
+				4C690D5C1C4675E9009BDF79 /* chicken-satay.png in Resources */,
+				4C690D921C4675E9009BDF79 /* Paneer_Bread_Balls.png in Resources */,
+				4C690D531C4675E9009BDF79 /* blueberry-lemonade.png in Resources */,
+				4C690DAD1C4675E9009BDF79 /* Tandoori_Gobi_Tikka.png in Resources */,
+				4C690D6B1C4675E9009BDF79 /* fancy-coffee-drink.png in Resources */,
+				4C690DAE1C4675E9009BDF79 /* Titori.png in Resources */,
+				4CCCCC511C5B259400617FD5 /* Naan.png in Resources */,
+				4C690D991C4675E9009BDF79 /* Rajgira_Aloo_Tikki.png in Resources */,
+				4C3D76AA1C4F9EA80084FC89 /* cholebature.png in Resources */,
+				4C6C55C81C7570C0003CE1AF /* BirthdayBackground.png in Resources */,
+				4CCCCC371C5B259400617FD5 /* Garlic Mushroom Fried Rice.png in Resources */,
+				4CBDD8681C87E8D600D6C1A2 /* CorporateBackground.png in Resources */,
+				4C3D76AD1C4F9F030084FC89 /* pavbhaji.png in Resources */,
+				4C690DB01C4675E9009BDF79 /* vanilla-soy-coffee.png in Resources */,
+				4C690DA21C4675E9009BDF79 /* Shahi-Paneer.png in Resources */,
+				4C690D631C4675E9009BDF79 /* Corporate1.png in Resources */,
+				4C690D591C4675E9009BDF79 /* Chana-Dal-aur-Soya-Wadi-ki-Sabzi.png in Resources */,
+				4C690D821C4675E9009BDF79 /* Makhmali_Rajma_Kofta.png in Resources */,
+				4C690D4E1C4675E9009BDF79 /* Baked-Baby-Potatoes-with-Lime-Mayonnaise.png in Resources */,
+				4C690D8D1C4675E9009BDF79 /* Mooli paratha.png in Resources */,
+				4C690D8A1C4675E9009BDF79 /* miniature white cake.png in Resources */,
+				4CCCCC411C5B259400617FD5 /* Pot Kulfi.png in Resources */,
+				4C690DA91C4675E9009BDF79 /* Suran_Fodi.png in Resources */,
+				4CCCCC311C5B259400617FD5 /* Chocolate mousse.png in Resources */,
+				4C690D621C4675E9009BDF79 /* Corporate.png in Resources */,
+				4C690DAB1C4675E9009BDF79 /* Sweet_Corn_Oats_Fritters.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE1B47E1B7E14A800613803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CE1B4631B7E14A800613803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD892211C7FF9D40082F49C /* BirthdayPredefinedGold.m in Sources */,
+				4CD892271C7FFA080082F49C /* ReceptionPredefinedGold.m in Sources */,
+				4CEF97691C3E8E7800EE750B /* CustomizedPackage.m in Sources */,
+				4CD8921E1C7FF9BE0082F49C /* GetTogetherPredefinedGold.m in Sources */,
+				4CC0C54C1C645D3400C56FC6 /* UserInformation.m in Sources */,
+				4CBAD48B1C52448B003B0907 /* ReceptionPredefinedScreenCell.m in Sources */,
+				4C15B6A51BECD3B7009F9C50 /* GalleryScreen.m in Sources */,
+				4CD892241C7FF9F10082F49C /* CorporatePredefinedGold.m in Sources */,
+				4C0B1A331BE4AFE500128B54 /* ContactUs.m in Sources */,
+				BDCA30AA1C75CC5500BEDCEA /* LocationScreen.m in Sources */,
+				4CC0C54F1C646AF500C56FC6 /* OrderReceiptScreen.m in Sources */,
+				4CBAD4911C5244C1003B0907 /* WeddingPredefinedScreenCell.m in Sources */,
+				4C2AD2581C3FCFBE0071B246 /* GetTogetherPredefined.m in Sources */,
+				4CF1BAFF1C368E3100DA3D0F /* Wedding.m in Sources */,
+				8B01B5FD1CBBEF20004E15D0 /* CancelOrderCell.m in Sources */,
+				4C15B6931BECC52F009F9C50 /* Feedback.m in Sources */,
+				4CF1BB021C368F4700DA3D0F /* GetTogether.m in Sources */,
+				4C250C191BB699D800158378 /* AboutUs.m in Sources */,
+				4C690DB61C46773D009BDF79 /* CustomizedScreenCell.m in Sources */,
+				4CF1BB051C368F6300DA3D0F /* BirthdayParty.m in Sources */,
+				4CD8922A1C7FFA1D0082F49C /* GraduationPredefinedGold.m in Sources */,
+				4C250C1C1BB699D800158378 /* RegistrationPage.m in Sources */,
+				4C3D76B21C4FA81B0084FC89 /* BirthdayPredefinedScreenCell.m in Sources */,
+				4CED39551C24312700CEC19F /* Cell.m in Sources */,
+				4C2568FB1C0053CE00A98777 /* Menu.m in Sources */,
+				4C2AD2641C3FD0180071B246 /* GraduationPredefined.m in Sources */,
+				4CBAD48E1C5244A5003B0907 /* CorporatePredefinedScreenCell.m in Sources */,
+				4CEE2B8B1CA0386900E38A16 /* Payment.m in Sources */,
+				4CE1B4701B7E14A800613803 /* AppDelegate.m in Sources */,
+				4CE1B46D1B7E14A800613803 /* main.m in Sources */,
+				4CD8921B1C7FF9590082F49C /* WeddingPredefinedGold.m in Sources */,
+				4C2AD25E1C3FCFEB0071B246 /* CorporatePredefined.m in Sources */,
+				4C2AD2551C3FCF930071B246 /* WeddingPredefined.m in Sources */,
+				4C31B9641BDA75290009FAE6 /* NSString+NSString.m in Sources */,
+				4CF1BB081C368F7A00DA3D0F /* CorporateParty.m in Sources */,
+				4CBAD4881C524469003B0907 /* GetTogetherPredefinedScreenCell.m in Sources */,
+				4C250C1A1BB699D800158378 /* HomePage.m in Sources */,
+				4CF1BB0B1C368FB800DA3D0F /* Reception.m in Sources */,
+				4C2AD25B1C3FCFD60071B246 /* BirthdayPredefined.m in Sources */,
+				4CED39561C24312700CEC19F /* CustomCellBackground.m in Sources */,
+				4CF1BB0E1C36927000DA3D0F /* GraduationParty.m in Sources */,
+				4C915E051C9C378A00DD38B9 /* DBManager.m in Sources */,
+				4C250C1B1BB699D800158378 /* LoginPage.m in Sources */,
+				8BFD74011CAD5B5D00E28C16 /* CancelOrder.m in Sources */,
+				4CBDD86B1C8806E900D6C1A2 /* ClientFeedbacks.m in Sources */,
+				4CED39541C24312700CEC19F /* DetailViewController.m in Sources */,
+				4CBAD4851C524439003B0907 /* GraduationPredefinedScreenCell.m in Sources */,
+				8B6611E41CA6C379001FB6AC /* ForgetPassword.m in Sources */,
+				4C2AD2611C3FCFFF0071B246 /* ReceptionPredefined.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE1B47C1B7E14A800613803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE1B4871B7E14A900613803 /* E_FiestaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CE1B4821B7E14A800613803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CE1B4661B7E14A800613803 /* E-Fiesta */;
+			targetProxy = 4CE1B4811B7E14A800613803 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CE1B4741B7E14A800613803 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE1B4751B7E14A800613803 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CE1B4791B7E14A800613803 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE1B47A1B7E14A800613803 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CE1B4881B7E14A900613803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CE1B4891B7E14A900613803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CE1B48B1B7E14A900613803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "E-Fiesta/E-Fiesta-Prefix.pch";
+				INFOPLIST_FILE = "E-Fiesta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CE1B48C1B7E14A900613803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "E-Fiesta/E-Fiesta-Prefix.pch";
+				INFOPLIST_FILE = "E-Fiesta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CE1B48E1B7E14A900613803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "E-FiestaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-Fiesta.app/E-Fiesta";
+			};
+			name = Debug;
+		};
+		4CE1B48F1B7E14A900613803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "E-FiestaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-Fiesta.app/E-Fiesta";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CE1B4621B7E14A800613803 /* Build configuration list for PBXProject "E-Fiesta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE1B4881B7E14A900613803 /* Debug */,
+				4CE1B4891B7E14A900613803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE1B48A1B7E14A900613803 /* Build configuration list for PBXNativeTarget "E-Fiesta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE1B48B1B7E14A900613803 /* Debug */,
+				4CE1B48C1B7E14A900613803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE1B48D1B7E14A900613803 /* Build configuration list for PBXNativeTarget "E-FiestaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE1B48E1B7E14A900613803 /* Debug */,
+				4CE1B48F1B7E14A900613803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CE1B45F1B7E14A800613803 /* Project object */;
+}
